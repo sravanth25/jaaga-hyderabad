@@ -15,7 +15,7 @@ jaaga-hyderabad-seo/
 │   ├── site.json       # global config: brand, contact, areas, stats  ← EDIT THIS
 │   └── services.json   # one object per service (content + FAQs + process)  ← ADD SERVICES HERE
 └── dist/               # generated output — THIS is what you deploy
-    ├── index.html                       # services hub
+    ├── all-services.html                # services hub
     ├── <service>-hyderabad.html         # 16 service pages
     ├── sitemap.xml
     ├── robots.txt

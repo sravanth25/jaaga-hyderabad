@@ -2,5 +2,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "dist",
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/", "destination": "/all-services.html", "permanent": true },
+    { "source": "/index.html", "destination": "/all-services.html", "permanent": true }
+  ]
 }

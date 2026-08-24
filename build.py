@@ -5,7 +5,7 @@ JaaGa Hyderabad SEO site generator
 -----------------------------------
 Reads  data/site.json  +  data/services.json
 Writes dist/<slug>.html  (one static, self-canonical, schema-rich page per service)
-       dist/index.html   (services hub)
+       dist/all-services.html   (services hub)
        dist/sitemap.xml
        dist/robots.txt
        dist/assets/style.css
@@ -95,7 +95,7 @@ def build_schema(sv, site):
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": base + "/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": base + "/index.html"},
+            {"@type": "ListItem", "position": 2, "name": "Services", "item": base + "/all-services.html"},
             {"@type": "ListItem", "position": 3, "name": sv["service"], "item": url},
         ],
     })
@@ -183,7 +183,7 @@ def nav_html(site, services, active=None):
         )
     return f"""<header class="jg-topbar">
   <div class="jg-wrap jg-topbar-row">
-    <a class="jg-brand" href="index.html">
+    <a class="jg-brand" href="all-services.html">
       <span class="jg-brand-mark">JaaGa</span>
       <span class="jg-brand-sub">Property Services · Hyderabad</span>
     </a>
@@ -191,7 +191,7 @@ def nav_html(site, services, active=None):
       <span></span><span></span><span></span></button>
     <nav class="jg-nav" aria-label="Primary">
       {groups}
-      <a class="jg-nav-all" href="index.html">All Services</a>
+      <a class="jg-nav-all" href="all-services.html">All Services</a>
     </nav>
     <a class="jg-cta-btn jg-topbar-cta" href="{esc(wa_link(site, site['waDefault']))}" rel="nofollow">WhatsApp Us</a>
   </div>
@@ -373,7 +373,7 @@ def render_page(sv, site, services):
 <main>
   <section class="jg-hero">
     <div class="jg-wrap">
-      <nav class="jg-crumb" aria-label="Breadcrumb"><a href="index.html">Services</a> <span>/</span> {esc(sv['service'])}</nav>
+      <nav class="jg-crumb" aria-label="Breadcrumb"><a href="all-services.html">Services</a> <span>/</span> {esc(sv['service'])}</nav>
       <h1 class="jg-h1">{esc(sv['h1'])}</h1>
       <p class="jg-lede">{esc(sv.get('tagline',''))}</p>
       <div class="jg-hero-cta">
@@ -416,11 +416,11 @@ def render_page(sv, site, services):
 </html>"""
 
 # ----------------------------------------------------------------------------
-# Services hub (index.html)
+# Services hub (all-services.html)
 # ----------------------------------------------------------------------------
 def render_hub(site, services):
     base = site["baseUrl"].rstrip("/")
-    url = base + "/index.html"
+    url = base + "/all-services.html"
     # group by category
     cats = {}
     for s in services:
@@ -493,7 +493,7 @@ def render_hub(site, services):
 def render_sitemap(site, services):
     base = site["baseUrl"].rstrip("/")
     today = datetime.date.today().isoformat()
-    urls = [base + "/index.html"] + [f"{base}/{s['slug']}.html" for s in services]
+    urls = [base + "/all-services.html"] + [f"{base}/{s['slug']}.html" for s in services]
     body = "".join(
         f"  <url><loc>{esc(u)}</loc><lastmod>{today}</lastmod>"
         f"<changefreq>weekly</changefreq><priority>{'1.0' if i==0 else '0.9'}</priority></url>\n"
@@ -527,7 +527,7 @@ def main():
         with open(os.path.join(DIST, f"{sv['slug']}.html"), "w", encoding="utf-8") as f:
             f.write(render_page(sv, site, services))
 
-    with open(os.path.join(DIST, "index.html"), "w", encoding="utf-8") as f:
+    with open(os.path.join(DIST, "all-services.html"), "w", encoding="utf-8") as f:
         f.write(render_hub(site, services))
     with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(render_sitemap(site, services))
