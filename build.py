@@ -501,14 +501,64 @@ def render_sitemap(site, services):
     )
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}</urlset>\n'
 
+SEARCH_BOTS = ["Googlebot", "Googlebot-Image", "Googlebot-News", "Googlebot-Video",
+               "Bingbot", "msnbot", "Slurp", "DuckDuckBot", "YandexBot", "Baiduspider", "Applebot"]
+AI_BOTS = ["Google-Extended", "GPTBot", "ChatGPT-User", "OAI-SearchBot",
+           "ClaudeBot", "anthropic-ai", "Claude-Web", "PerplexityBot", "PerplexityBot",
+           "Applebot-Extended", "cohere-ai", "Amazonbot", "Bytespider", "FacebookExternalHit"]
+
 def render_robots(site):
     base = site["baseUrl"].rstrip("/")
-    return f"""# {site['orgName']} — robots.txt
+    def block(bots):
+        return "\n\n".join(f"User-agent: {b}\nAllow: /" for b in dict.fromkeys(bots))
+    return f"""# {site['orgName']} - robots.txt
+# {base}
+
+# Default: allow all crawlers
 User-agent: *
 Allow: /
 
+# Search engines
+{block(SEARCH_BOTS)}
+
+# AI crawlers - explicitly allowed so {site['orgName']} can be cited in AI answers
+{block(AI_BOTS)}
+
+# Sitemap
 Sitemap: {base}/sitemap.xml
+
+# AI model context
+# {base}/llms.txt
 """
+
+def render_llms(site, services):
+    base = site["baseUrl"].rstrip("/")
+    L = [f"# {site['orgName']}", "",
+         f"> {site['hubDescription']}", "",
+         f"{site['orgName']} helps property owners, buyers and NRIs in Hyderabad and across "
+         f"Telangana handle land records, verification, legal documentation and utility "
+         f"transfers remotely. Every service is delivered end to end over WhatsApp, without "
+         f"the customer visiting the Sub-Registrar (SRO) or MRO offices in person.", "",
+         "## Services", ""]
+    for cat, items in grouped(services):
+        L.append(f"### {cat}")
+        for s in items:
+            L.append(f"- [{s['service']} in {s.get('city','Hyderabad')}]"
+                     f"({base}/{s['slug']}.html): {s.get('shortDesc','')}")
+        L.append("")
+    L += ["## Areas served",
+          f"{site['areasCount']} localities across Greater Hyderabad and Telangana, including "
+          f"{', '.join(site['areas'])}. Districts covered: {site['districts']}.", "",
+          "## Contact"]
+    L.append(f"- WhatsApp / phone: {site['phone']}")
+    if site.get("altPhone"): L.append(f"- Alternate phone: {site['altPhone']}")
+    if site.get("email"): L.append(f"- Email: {site['email']}")
+    L += [f"- All services: {base}/all-services.html", "",
+          "## Notes",
+          f"{site['orgName']} is a private facilitation service and is not affiliated with any "
+          f"government department. Official records are sourced from the relevant Telangana "
+          f"government portals (Registration & Stamps, Dharani, GHMC, TG-RERA, CERSAI).", ""]
+    return "\n".join(L)
 
 # ----------------------------------------------------------------------------
 def main():
@@ -533,6 +583,8 @@ def main():
         f.write(render_sitemap(site, services))
     with open(os.path.join(DIST, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(render_robots(site))
+    with open(os.path.join(DIST, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(render_llms(site, services))
 
     print(f"[OK] Generated {len(services)} service pages + hub + sitemap + robots into dist/")
     for sv in services:

@@ -1,0 +1,45 @@
+# JaaGa Property Services
+
+> Encumbrance certificate, title verification, mutation, HYDRAA/FTL check, 22A, CERSAI, RERA verification, property tax, valuation and more — Hyderabad property services handled remotely by JaaGa.
+
+JaaGa Property Services helps property owners, buyers and NRIs in Hyderabad and across Telangana handle land records, verification, legal documentation and utility transfers remotely. Every service is delivered end to end over WhatsApp, without the customer visiting the Sub-Registrar (SRO) or MRO offices in person.
+
+## Services
+
+### Verification & Due Diligence
+- [Encumbrance Certificate in Hyderabad](https://jaaga-hyderabad.vercel.app/encumbrance-certificate-hyderabad.html): Full EC extract from the Registration dept
+- [Title Verification Report in Hyderabad](https://jaaga-hyderabad.vercel.app/title-verification-report-hyderabad.html): 30-year title chain audit + legal opinion
+- [Prohibited Land Report (22A) in Hyderabad](https://jaaga-hyderabad.vercel.app/prohibited-land-report-22a-hyderabad.html): Section 22A prohibited-land clearance check
+- [Court Case & Dispute Check in Hyderabad](https://jaaga-hyderabad.vercel.app/court-case-dispute-check-hyderabad.html): Litigation history & pending-case search
+- [CERSAI Mortgage Report in Hyderabad](https://jaaga-hyderabad.vercel.app/cersai-mortgage-report-hyderabad.html): Hidden bank/NBFC mortgage detection
+- [HYDRAA & FTL Verification in Hyderabad](https://jaaga-hyderabad.vercel.app/hydraa-ftl-verification-hyderabad.html): Lake FTL & HYDRAA buffer-zone check
+- [RERA Certificate Verification in Hyderabad](https://jaaga-hyderabad.vercel.app/rera-certificate-verification-hyderabad.html): Builder & project TG-RERA registration check
+- [Find Ancestor Property in Hyderabad](https://jaaga-hyderabad.vercel.app/find-ancestor-property-hyderabad.html): Trace ancestral & family-owned land
+
+### Legal & Documentation
+- [Property Mutation Creation in Hyderabad](https://jaaga-hyderabad.vercel.app/property-mutation-creation-hyderabad.html): Ownership update in revenue/municipal records
+- [Property Registration Service in Hyderabad](https://jaaga-hyderabad.vercel.app/property-registration-hyderabad.html): End-to-end SRO deed registration
+- [Document Translation in Hyderabad](https://jaaga-hyderabad.vercel.app/document-translation-hyderabad.html): Telugu · Urdu · English deed translation
+- [VLT Creation in Hyderabad](https://jaaga-hyderabad.vercel.app/vlt-creation-hyderabad.html): Vacant Land Tax assessment & number
+
+### Alerts & Monitoring
+- [Property Alert Service in Hyderabad](https://jaaga-hyderabad.vercel.app/property-alert-service-hyderabad.html): Encroachment & fraud monitoring for owners
+
+### Valuation & Specialty
+- [Property Valuation in Hyderabad](https://jaaga-hyderabad.vercel.app/property-valuation-hyderabad.html): Market & guidance value report
+
+### Documentation & Utility
+- [Property Tax Receipt (GHMC) in Hyderabad](https://jaaga-hyderabad.vercel.app/property-tax-receipt-hyderabad.html): GHMC tax status, dues & receipts
+- [Electricity Name Change in Hyderabad](https://jaaga-hyderabad.vercel.app/electricity-name-change-hyderabad.html): TGSPDCL connection name transfer
+
+## Areas served
+135+ localities across Greater Hyderabad and Telangana, including Banjara Hills, Jubilee Hills, HITEC City, Gachibowli, Kondapur, Madhapur, Kukatpally, Miyapur, Manikonda, Narsingi, Kokapet, Tellapur, Nallagandla, Kompally, Shamshabad, Secunderabad, LB Nagar, Uppal, Nizampet, Bachupally. Districts covered: Hyderabad, Ranga Reddy, Medchal-Malkajgiri and Sangareddy.
+
+## Contact
+- WhatsApp / phone: +91 88851 66880
+- Alternate phone: +91 88851 33990
+- Email: social@jaaga.ai
+- All services: https://jaaga-hyderabad.vercel.app/all-services.html
+
+## Notes
+JaaGa Property Services is a private facilitation service and is not affiliated with any government department. Official records are sourced from the relevant Telangana government portals (Registration & Stamps, Dharani, GHMC, TG-RERA, CERSAI).
