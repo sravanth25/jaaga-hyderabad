@@ -596,6 +596,11 @@ def main():
         f.write(render_robots(site))
     with open(os.path.join(DIST, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(render_llms(site, services))
+    # Google Search Console HTML-file verification
+    gv = site.get("googleVerification")
+    if gv:
+        with open(os.path.join(DIST, f"{gv}.html"), "w", encoding="utf-8") as f:
+            f.write(f"google-site-verification: {gv}.html\n")
 
     print(f"[OK] Generated {len(services)} service pages + hub + sitemap + robots into dist/")
     for sv in services:
