@@ -166,6 +166,17 @@ def fmt_date(iso):
     except Exception:
         return iso
 
+# Short labels for the nav bar only (full category names stay on pages/hub)
+NAV_SHORT = {
+    "Verification & Due Diligence": "Verification",
+    "Legal & Documentation": "Legal & Docs",
+    "Alerts & Monitoring": "Alerts",
+    "Valuation & Specialty": "Valuation",
+    "Documentation & Utility": "Documentation",
+    "Land Records (Telangana)": "Land Records",
+    "Loans & NRI Services": "Loans & NRI",
+}
+
 def grouped(services):
     """Group services by category, preserving first-seen order."""
     order, buckets = [], {}
@@ -188,7 +199,7 @@ def nav_html(site, services, active=None):
         groups += (
             f'<div class="jg-nav-group">'
             f'<button type="button" class="jg-nav-trigger" aria-expanded="false">'
-            f'{esc(cat)}<span class="jg-caret" aria-hidden="true">▾</span></button>'
+            f'{esc(NAV_SHORT.get(cat, cat))}<span class="jg-caret" aria-hidden="true">▾</span></button>'
             f'<div class="jg-nav-menu"><ul>{li}</ul></div></div>'
         )
     return f"""<header class="jg-topbar">
@@ -197,13 +208,15 @@ def nav_html(site, services, active=None):
       <span class="jg-brand-mark">JaaGa</span>
       <span class="jg-brand-sub">Property Services · Hyderabad</span>
     </a>
+    <a class="jg-cta-btn jg-topbar-cta" href="{esc(wa_link(site, site['waDefault']))}" rel="nofollow">WhatsApp Us</a>
     <button type="button" class="jg-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span></button>
+  </div>
+  <div class="jg-navbar">
     <nav class="jg-nav" aria-label="Primary">
       {groups}
       <a class="jg-nav-all" href="all-services.html">All Services</a>
     </nav>
-    <a class="jg-cta-btn jg-topbar-cta" href="{esc(wa_link(site, site['waDefault']))}" rel="nofollow">WhatsApp Us</a>
   </div>
 </header>"""
 
