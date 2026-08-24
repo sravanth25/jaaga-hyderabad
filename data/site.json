@@ -1,0 +1,41 @@
+{
+  "_README": "EDIT THESE before deploying. baseUrl must match your final domain (used in canonical + sitemap). address and rating are still PLACEHOLDERS — set real values. Do not publish AggregateRating unless it reflects genuine collected reviews (Google penalises fake review markup). Contact details (phone/whatsapp/altPhone/email) are set to real JaaGa values.",
+  "baseUrl": "https://jaaga-hyderabad.vercel.app",
+  "orgName": "JaaGa Property Services",
+  "tagline": "Everything Your Property Needs — Hyderabad property records, verification and documentation, handled remotely.",
+  "phone": "+91 88851 66880",
+  "whatsapp": "918885166880",
+  "altPhone": "+91 88851 33990",
+  "email": "social@jaaga.ai",
+  "waDefault": "Hi JaaGa, I need help with a property service in Hyderabad.",
+  "logo": "https://hyderabad.jaaga.ai/assets/logo.png",
+  "ogImage": "https://hyderabad.jaaga.ai/assets/og.jpg",
+  "priceRange": "₹₹",
+  "sameAs": ["https://www.jaaga.ai"],
+  "address": {
+    "street": "Set your Hyderabad office address",
+    "locality": "Hyderabad",
+    "region": "Telangana",
+    "postalCode": "500001"
+  },
+  "geo": { "lat": 17.4239, "lng": 78.4483 },
+  "_rating_note": "Add a real rating only when you have genuine reviews, e.g. \"rating\": { \"value\": \"4.8\", \"count\": \"120\" } — the generator will then emit AggregateRating schema.",
+  "areasCount": "135+",
+  "districts": "Hyderabad, Ranga Reddy, Medchal-Malkajgiri and Sangareddy",
+  "areas": [
+    "Banjara Hills", "Jubilee Hills", "HITEC City", "Gachibowli", "Kondapur",
+    "Madhapur", "Kukatpally", "Miyapur", "Manikonda", "Narsingi", "Kokapet",
+    "Tellapur", "Nallagandla", "Kompally", "Shamshabad", "Secunderabad",
+    "LB Nagar", "Uppal", "Nizampet", "Bachupally"
+  ],
+  "stats": [
+    { "n": "50+", "l": "Property Services" },
+    { "n": "135+", "l": "Hyderabad Localities" },
+    { "n": "3", "l": "Languages · Telugu Hindi English" },
+    { "n": "100%", "l": "Remote · NRI-friendly" }
+  ],
+  "hubTitle": "All Property Services in Hyderabad | JaaGa",
+  "hubDescription": "Encumbrance certificate, title verification, mutation, HYDRAA/FTL check, 22A, CERSAI, RERA verification, property tax, valuation and more — Hyderabad property services handled remotely by JaaGa.",
+  "hubH1": "Every Property Service You Need in Hyderabad",
+  "hubLede": "Verification, land records, legal documentation and alerts across Greater Hyderabad and Telangana — done remotely, end to end. Built for owners, buyers and NRIs who can't stand in the SRO or MRO queue."
+}

@@ -1,0 +1,16 @@
+# Vercel
+.vercel
+
+# Node (only present if you install the Vercel CLI locally)
+node_modules
+
+# Python
+__pycache__/
+*.pyc
+
+# Packaged output
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

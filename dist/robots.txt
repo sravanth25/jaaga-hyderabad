@@ -1,0 +1,5 @@
+# JaaGa Property Services — robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://jaaga-hyderabad.vercel.app/sitemap.xml
