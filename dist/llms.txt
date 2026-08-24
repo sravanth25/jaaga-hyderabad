@@ -15,12 +15,15 @@ JaaGa Property Services helps property owners, buyers and NRIs in Hyderabad and 
 - [HYDRAA & FTL Verification in Hyderabad](https://jaaga-hyderabad.vercel.app/hydraa-ftl-verification-hyderabad.html): Lake FTL & HYDRAA buffer-zone check
 - [RERA Certificate Verification in Hyderabad](https://jaaga-hyderabad.vercel.app/rera-certificate-verification-hyderabad.html): Builder & project TG-RERA registration check
 - [Find Ancestor Property in Hyderabad](https://jaaga-hyderabad.vercel.app/find-ancestor-property-hyderabad.html): Trace ancestral & family-owned land
+- [Physical Verification in Hyderabad](https://jaaga-hyderabad.vercel.app/physical-verification-hyderabad.html): On-site property inspection
 
 ### Legal & Documentation
 - [Property Mutation Creation in Hyderabad](https://jaaga-hyderabad.vercel.app/property-mutation-creation-hyderabad.html): Ownership update in revenue/municipal records
 - [Property Registration Service in Hyderabad](https://jaaga-hyderabad.vercel.app/property-registration-hyderabad.html): End-to-end SRO deed registration
 - [Document Translation in Hyderabad](https://jaaga-hyderabad.vercel.app/document-translation-hyderabad.html): Telugu · Urdu · English deed translation
 - [VLT Creation in Hyderabad](https://jaaga-hyderabad.vercel.app/vlt-creation-hyderabad.html): Vacant Land Tax assessment & number
+- [Rectification Deed in Hyderabad](https://jaaga-hyderabad.vercel.app/rectification-deed-hyderabad.html): Fix errors in registered deeds
+- [Mortgage Deed in Hyderabad](https://jaaga-hyderabad.vercel.app/mortgage-deed-hyderabad.html): Mortgage deed drafting & registration
 
 ### Alerts & Monitoring
 - [Property Alert Service in Hyderabad](https://jaaga-hyderabad.vercel.app/property-alert-service-hyderabad.html): Encroachment & fraud monitoring for owners
@@ -31,6 +34,18 @@ JaaGa Property Services helps property owners, buyers and NRIs in Hyderabad and 
 ### Documentation & Utility
 - [Property Tax Receipt (GHMC) in Hyderabad](https://jaaga-hyderabad.vercel.app/property-tax-receipt-hyderabad.html): GHMC tax status, dues & receipts
 - [Electricity Name Change in Hyderabad](https://jaaga-hyderabad.vercel.app/electricity-name-change-hyderabad.html): TGSPDCL connection name transfer
+- [PTIN Registration in Hyderabad](https://jaaga-hyderabad.vercel.app/ptin-registration-hyderabad.html): New GHMC property tax identification
+- [Water Bill Name Change in Hyderabad](https://jaaga-hyderabad.vercel.app/water-bill-name-change-hyderabad.html): HMWSSB connection name transfer
+
+### Land Records (Telangana)
+- [Pattadhar Passbook in Hyderabad](https://jaaga-hyderabad.vercel.app/pattadhar-passbook-hyderabad.html): Electronic agricultural land passbook
+- [Adangal / Pahani (ROR 1B) in Hyderabad](https://jaaga-hyderabad.vercel.app/adangal-pahani-hyderabad.html): Crop, possession & ownership record
+- [Land Details Search in Hyderabad](https://jaaga-hyderabad.vercel.app/land-details-search-hyderabad.html): Survey-number ownership & status search
+- [Digital Land Survey in Hyderabad](https://jaaga-hyderabad.vercel.app/digital-land-survey-hyderabad.html): GPS-aided boundary demarcation
+
+### Loans & NRI Services
+- [Loan Against Property in Hyderabad](https://jaaga-hyderabad.vercel.app/loan-against-property-hyderabad.html): LAP documentation & title readiness
+- [Property Repatriation (NRI) in Hyderabad](https://jaaga-hyderabad.vercel.app/property-repatriation-hyderabad.html): Move NRI sale proceeds abroad, compliantly
 
 ## Areas served
 135+ localities across Greater Hyderabad and Telangana, including Banjara Hills, Jubilee Hills, HITEC City, Gachibowli, Kondapur, Madhapur, Kukatpally, Miyapur, Manikonda, Narsingi, Kokapet, Tellapur, Nallagandla, Kompally, Shamshabad, Secunderabad, LB Nagar, Uppal, Nizampet, Bachupally. Districts covered: Hyderabad, Ranga Reddy, Medchal-Malkajgiri and Sangareddy.

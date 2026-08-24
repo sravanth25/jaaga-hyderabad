@@ -33,10 +33,22 @@
     "process": {
       "heading": "How We Get Your EC",
       "steps": [
-        { "name": "Share Property Details", "desc": "Send us the document number, or the survey/plot number with owner name and the period you need covered." },
-        { "name": "We Search the Records", "desc": "We query the Telangana Registration department records for the Sub-Registrar Office jurisdiction your property falls under." },
-        { "name": "Certified Extract Pulled", "desc": "We obtain the EC extract listing all registered transactions — or a nil-encumbrance certificate if there are none." },
-        { "name": "Review & Delivery", "desc": "We flag any encumbrance we spot, explain what it means in plain language, and send you the EC digitally." }
+        {
+          "name": "Share Property Details",
+          "desc": "Send us the document number, or the survey/plot number with owner name and the period you need covered."
+        },
+        {
+          "name": "We Search the Records",
+          "desc": "We query the Telangana Registration department records for the Sub-Registrar Office jurisdiction your property falls under."
+        },
+        {
+          "name": "Certified Extract Pulled",
+          "desc": "We obtain the EC extract listing all registered transactions — or a nil-encumbrance certificate if there are none."
+        },
+        {
+          "name": "Review & Delivery",
+          "desc": "We flag any encumbrance we spot, explain what it means in plain language, and send you the EC digitally."
+        }
       ]
     },
     "documents": [
@@ -46,17 +58,41 @@
       "Period required (e.g. last 13 or 30 years)"
     ],
     "challenges": [
-      { "title": "Wrong SRO jurisdiction", "desc": "Properties often fall under a Sub-Registrar Office you wouldn't expect. We identify the correct jurisdiction so nothing is missed." },
-      { "title": "Pre-computerisation records", "desc": "Transactions before digitisation need manual search at the SRO. We handle the physical retrieval for older periods." },
-      { "title": "Reading the encumbrance", "desc": "An EC entry can look clean but hide a subsisting mortgage. We interpret every entry, not just hand you a PDF." }
+      {
+        "title": "Wrong SRO jurisdiction",
+        "desc": "Properties often fall under a Sub-Registrar Office you wouldn't expect. We identify the correct jurisdiction so nothing is missed."
+      },
+      {
+        "title": "Pre-computerisation records",
+        "desc": "Transactions before digitisation need manual search at the SRO. We handle the physical retrieval for older periods."
+      },
+      {
+        "title": "Reading the encumbrance",
+        "desc": "An EC entry can look clean but hide a subsisting mortgage. We interpret every entry, not just hand you a PDF."
+      }
     ],
     "whyMatters": "A property can look perfect and still carry a bank loan the seller never told you about. The EC is the one record that surfaces registered debt and prior sales. Skipping it is how buyers discover, after paying, that the property was already mortgaged or sold to someone else.",
     "faqs": [
-      { "q": "What is an Encumbrance Certificate?", "a": "It is an official record of all registered transactions — sales, mortgages, gifts, partitions — recorded against a property for a chosen period, issued by the state Registration department." },
-      { "q": "How many years of EC do I need?", "a": "For a purchase, 13 years is standard; many banks and cautious buyers ask for 30 years. For inheritance or dispute matters, longer periods help. We can pull any period." },
-      { "q": "Does a clean EC guarantee clear title?", "a": "No. An EC only reflects registered transactions. Unregistered claims, court cases or family disputes may not appear — which is why an EC is paired with a title verification report." },
-      { "q": "Can NRIs get an EC remotely?", "a": "Yes. Send us the property details on WhatsApp and we retrieve and deliver the EC digitally — no need to fly to Hyderabad." },
-      { "q": "How long does it take?", "a": "Computerised-period ECs are usually available within a few working days. Older, manual-search periods take longer and we tell you upfront." }
+      {
+        "q": "What is an Encumbrance Certificate?",
+        "a": "It is an official record of all registered transactions — sales, mortgages, gifts, partitions — recorded against a property for a chosen period, issued by the state Registration department."
+      },
+      {
+        "q": "How many years of EC do I need?",
+        "a": "For a purchase, 13 years is standard; many banks and cautious buyers ask for 30 years. For inheritance or dispute matters, longer periods help. We can pull any period."
+      },
+      {
+        "q": "Does a clean EC guarantee clear title?",
+        "a": "No. An EC only reflects registered transactions. Unregistered claims, court cases or family disputes may not appear — which is why an EC is paired with a title verification report."
+      },
+      {
+        "q": "Can NRIs get an EC remotely?",
+        "a": "Yes. Send us the property details on WhatsApp and we retrieve and deliver the EC digitally — no need to fly to Hyderabad."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Computerised-period ECs are usually available within a few working days. Older, manual-search periods take longer and we tell you upfront."
+      }
     ],
     "whatWeNeed": [
       "Document number or survey/plot number",
@@ -69,8 +105,14 @@
       "Digital delivery, plus guidance on next steps"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -107,10 +149,22 @@
     "process": {
       "heading": "How the Report Is Built",
       "steps": [
-        { "name": "Collect the Chain", "desc": "We gather the mother deed and every subsequent deed to establish an unbroken ownership chain." },
-        { "name": "Government Cross-Check", "desc": "We verify the chain against Registration and revenue records, and pull the EC for the period." },
-        { "name": "Litigation & 22A Search", "desc": "We check for pending court cases and whether the property appears on the Section 22A prohibited list." },
-        { "name": "Advocate's Legal Opinion", "desc": "A licensed advocate reviews everything and issues a written opinion with a clear buy / buy-with-conditions / avoid verdict." }
+        {
+          "name": "Collect the Chain",
+          "desc": "We gather the mother deed and every subsequent deed to establish an unbroken ownership chain."
+        },
+        {
+          "name": "Government Cross-Check",
+          "desc": "We verify the chain against Registration and revenue records, and pull the EC for the period."
+        },
+        {
+          "name": "Litigation & 22A Search",
+          "desc": "We check for pending court cases and whether the property appears on the Section 22A prohibited list."
+        },
+        {
+          "name": "Advocate's Legal Opinion",
+          "desc": "A licensed advocate reviews everything and issues a written opinion with a clear buy / buy-with-conditions / avoid verdict."
+        }
       ]
     },
     "documents": [
@@ -121,17 +175,41 @@
       "Latest EC (we can retrieve if you don't have it)"
     ],
     "challenges": [
-      { "title": "Broken deed chain", "desc": "A missing link between owners can void the whole title. We trace and reconstruct the chain from government records." },
-      { "title": "Undisclosed litigation", "desc": "Sellers rarely volunteer pending cases. Our litigation search surfaces disputes before your money is at risk." },
-      { "title": "Agricultural-to-non-agri gaps", "desc": "Conversion and layout-regularisation defects are common around Hyderabad. We check them explicitly." }
+      {
+        "title": "Broken deed chain",
+        "desc": "A missing link between owners can void the whole title. We trace and reconstruct the chain from government records."
+      },
+      {
+        "title": "Undisclosed litigation",
+        "desc": "Sellers rarely volunteer pending cases. Our litigation search surfaces disputes before your money is at risk."
+      },
+      {
+        "title": "Agricultural-to-non-agri gaps",
+        "desc": "Conversion and layout-regularisation defects are common around Hyderabad. We check them explicitly."
+      }
     ],
     "whyMatters": "In Hyderabad, the most expensive property mistakes are title mistakes — buying from someone who never had clean title, or a plot caught in a decades-old family suit. A title verification report is a few thousand rupees of insurance against losing your entire investment.",
     "faqs": [
-      { "q": "What's the difference between an EC and a title verification report?", "a": "An EC lists registered transactions. A title verification report is the full legal audit — it includes the EC, the deed chain, litigation search, 22A check and an advocate's opinion." },
-      { "q": "How far back do you check the title?", "a": "Up to 30 years, tracing from the mother deed through every transfer, which is what banks and courts treat as a safe title search period." },
-      { "q": "Do you give a written legal opinion?", "a": "Yes. A licensed advocate issues a signed opinion stating whether the title is clear and whether it is safe to proceed." },
-      { "q": "Can this be done before I pay an advance?", "a": "Yes, and it should be. Share the seller's documents and we verify before any money changes hands." },
-      { "q": "Is this available for agricultural land?", "a": "Yes — we verify agricultural titles including pattadhar passbook, adangal and prohibited-land status." }
+      {
+        "q": "What's the difference between an EC and a title verification report?",
+        "a": "An EC lists registered transactions. A title verification report is the full legal audit — it includes the EC, the deed chain, litigation search, 22A check and an advocate's opinion."
+      },
+      {
+        "q": "How far back do you check the title?",
+        "a": "Up to 30 years, tracing from the mother deed through every transfer, which is what banks and courts treat as a safe title search period."
+      },
+      {
+        "q": "Do you give a written legal opinion?",
+        "a": "Yes. A licensed advocate issues a signed opinion stating whether the title is clear and whether it is safe to proceed."
+      },
+      {
+        "q": "Can this be done before I pay an advance?",
+        "a": "Yes, and it should be. Share the seller's documents and we verify before any money changes hands."
+      },
+      {
+        "q": "Is this available for agricultural land?",
+        "a": "Yes — we verify agricultural titles including pattadhar passbook, adangal and prohibited-land status."
+      }
     ],
     "whatWeNeed": [
       "Seller's current title document",
@@ -144,8 +222,14 @@
       "Written legal opinion from a licensed advocate"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "eCourts case status", "url": "https://ecourts.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "eCourts case status",
+        "url": "https://ecourts.gov.in/"
+      }
     ]
   },
   {
@@ -182,10 +266,22 @@
     "process": {
       "heading": "How We Verify 22A Status",
       "steps": [
-        { "name": "Identify the Parcel", "desc": "We locate the exact survey number and village/mandal for the property." },
-        { "name": "Prohibited-List Search", "desc": "We check the parcel against the Section 22A prohibited-property database and revenue classifications." },
-        { "name": "Cross-Check Category", "desc": "We confirm whether the land is patta, assigned, endowment, wakf or government-classified." },
-        { "name": "Clear Report", "desc": "You receive a report stating whether the property is prohibited, restricted or free to register." }
+        {
+          "name": "Identify the Parcel",
+          "desc": "We locate the exact survey number and village/mandal for the property."
+        },
+        {
+          "name": "Prohibited-List Search",
+          "desc": "We check the parcel against the Section 22A prohibited-property database and revenue classifications."
+        },
+        {
+          "name": "Cross-Check Category",
+          "desc": "We confirm whether the land is patta, assigned, endowment, wakf or government-classified."
+        },
+        {
+          "name": "Clear Report",
+          "desc": "You receive a report stating whether the property is prohibited, restricted or free to register."
+        }
       ]
     },
     "documents": [
@@ -195,17 +291,41 @@
       "Any existing pattadhar passbook or deed"
     ],
     "challenges": [
-      { "title": "Assigned land sold as patta", "desc": "Assigned lands are frequently sold illegally. We confirm the land classification, not just the seller's word." },
-      { "title": "Partial survey-number prohibition", "desc": "Sometimes only part of a survey number is prohibited. We check the exact sub-division." },
-      { "title": "Recently added entries", "desc": "The prohibited list is updated over time. We check the current status, not an old copy." }
+      {
+        "title": "Assigned land sold as patta",
+        "desc": "Assigned lands are frequently sold illegally. We confirm the land classification, not just the seller's word."
+      },
+      {
+        "title": "Partial survey-number prohibition",
+        "desc": "Sometimes only part of a survey number is prohibited. We check the exact sub-division."
+      },
+      {
+        "title": "Recently added entries",
+        "desc": "The prohibited list is updated over time. We check the current status, not an old copy."
+      }
     ],
     "whyMatters": "Buyers lose money every year on 22A land — the deal looks great, the advance is paid, and only at the registration counter does the Sub-Registrar reveal the property is prohibited. A 22A report catches this before, not after.",
     "faqs": [
-      { "q": "What is Section 22A?", "a": "A provision of the Registration Act under which the government notifies categories of land — government, endowment, wakf, assigned, disputed — whose registration is prohibited or restricted." },
-      { "q": "What happens if I buy 22A land?", "a": "The Sub-Registrar will refuse to register the sale, so you cannot get legal ownership, and recovering your money from the seller can be very difficult." },
-      { "q": "Can 22A status change?", "a": "Yes. Properties are added to and occasionally removed from the list, so a current check matters." },
-      { "q": "Does this apply to flats?", "a": "It applies primarily to land. For flats, the underlying land's 22A status still matters and we check it." },
-      { "q": "Can you check remotely?", "a": "Yes. Send the survey number and village details and we verify without a site visit." }
+      {
+        "q": "What is Section 22A?",
+        "a": "A provision of the Registration Act under which the government notifies categories of land — government, endowment, wakf, assigned, disputed — whose registration is prohibited or restricted."
+      },
+      {
+        "q": "What happens if I buy 22A land?",
+        "a": "The Sub-Registrar will refuse to register the sale, so you cannot get legal ownership, and recovering your money from the seller can be very difficult."
+      },
+      {
+        "q": "Can 22A status change?",
+        "a": "Yes. Properties are added to and occasionally removed from the list, so a current check matters."
+      },
+      {
+        "q": "Does this apply to flats?",
+        "a": "It applies primarily to land. For flats, the underlying land's 22A status still matters and we check it."
+      },
+      {
+        "q": "Can you check remotely?",
+        "a": "Yes. Send the survey number and village details and we verify without a site visit."
+      }
     ],
     "whatWeNeed": [
       "Survey number and sub-division",
@@ -218,8 +338,14 @@
       "Clear registrable / not-registrable verdict"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -256,10 +382,22 @@
     "process": {
       "heading": "How We Run the Search",
       "steps": [
-        { "name": "Collect Names & Details", "desc": "We take the owner/seller names, survey/plot number and area." },
-        { "name": "Multi-Forum Search", "desc": "We search civil courts, revenue courts, consumer forums and High Court records for matching cases." },
-        { "name": "Verify Relevance", "desc": "We confirm whether each hit actually relates to your property or parties, not just a name match." },
-        { "name": "Dispute Report", "desc": "You receive a report of any pending or past litigation and what it means for the purchase." }
+        {
+          "name": "Collect Names & Details",
+          "desc": "We take the owner/seller names, survey/plot number and area."
+        },
+        {
+          "name": "Multi-Forum Search",
+          "desc": "We search civil courts, revenue courts, consumer forums and High Court records for matching cases."
+        },
+        {
+          "name": "Verify Relevance",
+          "desc": "We confirm whether each hit actually relates to your property or parties, not just a name match."
+        },
+        {
+          "name": "Dispute Report",
+          "desc": "You receive a report of any pending or past litigation and what it means for the purchase."
+        }
       ]
     },
     "documents": [
@@ -269,17 +407,41 @@
       "Current title document"
     ],
     "challenges": [
-      { "title": "Cases filed under old names", "desc": "Litigation may be under a previous owner's name. We search the full chain of parties." },
-      { "title": "Revenue vs civil disputes", "desc": "Land disputes span multiple forums. We don't stop at the civil court." },
-      { "title": "Name-match false positives", "desc": "Common names produce noise. We verify each match against your property before reporting." }
+      {
+        "title": "Cases filed under old names",
+        "desc": "Litigation may be under a previous owner's name. We search the full chain of parties."
+      },
+      {
+        "title": "Revenue vs civil disputes",
+        "desc": "Land disputes span multiple forums. We don't stop at the civil court."
+      },
+      {
+        "title": "Name-match false positives",
+        "desc": "Common names produce noise. We verify each match against your property before reporting."
+      }
     ],
     "whyMatters": "Buying disputed property means inheriting the fight — injunctions can freeze the land, and a court can ultimately hand it to someone else. A dispute check is how you avoid spending years and lakhs defending a title you thought was clean.",
     "faqs": [
-      { "q": "Will an EC show court cases?", "a": "Generally no. An EC records registered transactions, not litigation. A separate court-case search is needed." },
-      { "q": "What is lis pendens?", "a": "A legal principle that a buyer of property already under litigation takes it subject to the case's outcome — so you can lose it even after paying." },
-      { "q": "Which courts do you search?", "a": "Civil courts, revenue courts, consumer forums and High Court records relevant to the property and parties." },
-      { "q": "Can you check by owner name?", "a": "Yes. We search by party names and by property details, then verify relevance." },
-      { "q": "Is a nil result a guarantee?", "a": "It significantly reduces risk but cannot be absolute, since unreported or very recent filings may exist. We tell you exactly what we searched." }
+      {
+        "q": "Will an EC show court cases?",
+        "a": "Generally no. An EC records registered transactions, not litigation. A separate court-case search is needed."
+      },
+      {
+        "q": "What is lis pendens?",
+        "a": "A legal principle that a buyer of property already under litigation takes it subject to the case's outcome — so you can lose it even after paying."
+      },
+      {
+        "q": "Which courts do you search?",
+        "a": "Civil courts, revenue courts, consumer forums and High Court records relevant to the property and parties."
+      },
+      {
+        "q": "Can you check by owner name?",
+        "a": "Yes. We search by party names and by property details, then verify relevance."
+      },
+      {
+        "q": "Is a nil result a guarantee?",
+        "a": "It significantly reduces risk but cannot be absolute, since unreported or very recent filings may exist. We tell you exactly what we searched."
+      }
     ],
     "whatWeNeed": [
       "Owner/seller names and co-owners",
@@ -292,8 +454,14 @@
       "Plain-language risk assessment"
     ],
     "references": [
-      { "label": "eCourts services", "url": "https://ecourts.gov.in/" },
-      { "label": "Telangana High Court", "url": "https://tshc.gov.in/" }
+      {
+        "label": "eCourts services",
+        "url": "https://ecourts.gov.in/"
+      },
+      {
+        "label": "Telangana High Court",
+        "url": "https://tshc.gov.in/"
+      }
     ]
   },
   {
@@ -330,10 +498,22 @@
     "process": {
       "heading": "How We Run the CERSAI Search",
       "steps": [
-        { "name": "Collect Property & Owner Data", "desc": "We take the property address/details and owner identity information needed for the registry search." },
-        { "name": "Search the Registry", "desc": "We query CERSAI for registered security interests against the property and owner." },
-        { "name": "Interpret Any Charge", "desc": "We identify the lender, the type of charge and whether it is active or satisfied." },
-        { "name": "Report", "desc": "You receive a clear statement of any registered mortgage and what it means for the purchase." }
+        {
+          "name": "Collect Property & Owner Data",
+          "desc": "We take the property address/details and owner identity information needed for the registry search."
+        },
+        {
+          "name": "Search the Registry",
+          "desc": "We query CERSAI for registered security interests against the property and owner."
+        },
+        {
+          "name": "Interpret Any Charge",
+          "desc": "We identify the lender, the type of charge and whether it is active or satisfied."
+        },
+        {
+          "name": "Report",
+          "desc": "You receive a clear statement of any registered mortgage and what it means for the purchase."
+        }
       ]
     },
     "documents": [
@@ -343,17 +523,41 @@
       "Any known loan/bank information"
     ],
     "challenges": [
-      { "title": "EC looks clean, loan exists", "desc": "Equitable mortgages bypass the SRO. The CERSAI search is what surfaces them." },
-      { "title": "Charge not marked satisfied", "desc": "Some closed loans remain shown as active. We help confirm and clear the status." },
-      { "title": "Multiple lenders", "desc": "Properties can carry more than one charge. We report all of them, not just the first." }
+      {
+        "title": "EC looks clean, loan exists",
+        "desc": "Equitable mortgages bypass the SRO. The CERSAI search is what surfaces them."
+      },
+      {
+        "title": "Charge not marked satisfied",
+        "desc": "Some closed loans remain shown as active. We help confirm and clear the status."
+      },
+      {
+        "title": "Multiple lenders",
+        "desc": "Properties can carry more than one charge. We report all of them, not just the first."
+      }
     ],
     "whyMatters": "If you buy a property that carries an unsatisfied mortgage, the lender's right to recover the loan can follow the property to you. A CERSAI report — paired with the EC — is how you make sure the home you're buying isn't already the bank's collateral.",
     "faqs": [
-      { "q": "What is CERSAI?", "a": "The Central Registry of Securitisation Asset Reconstruction and Security Interest — a national registry where lenders record mortgages and charges on property." },
-      { "q": "Why isn't the mortgage in the EC?", "a": "Equitable mortgages are created by depositing title deeds without registering a mortgage deed at the SRO, so they may not reflect in the EC. CERSAI captures them." },
-      { "q": "Should I do both EC and CERSAI?", "a": "Yes. They cover different risks — the EC covers registered transactions, CERSAI covers lenders' security interests. Together they give a fuller picture." },
-      { "q": "Can a closed loan still show?", "a": "Sometimes the charge isn't marked satisfied even after repayment. We help identify and resolve this." },
-      { "q": "Can NRIs use this service?", "a": "Yes, entirely remotely — share the details on WhatsApp and we handle the search." }
+      {
+        "q": "What is CERSAI?",
+        "a": "The Central Registry of Securitisation Asset Reconstruction and Security Interest — a national registry where lenders record mortgages and charges on property."
+      },
+      {
+        "q": "Why isn't the mortgage in the EC?",
+        "a": "Equitable mortgages are created by depositing title deeds without registering a mortgage deed at the SRO, so they may not reflect in the EC. CERSAI captures them."
+      },
+      {
+        "q": "Should I do both EC and CERSAI?",
+        "a": "Yes. They cover different risks — the EC covers registered transactions, CERSAI covers lenders' security interests. Together they give a fuller picture."
+      },
+      {
+        "q": "Can a closed loan still show?",
+        "a": "Sometimes the charge isn't marked satisfied even after repayment. We help identify and resolve this."
+      },
+      {
+        "q": "Can NRIs use this service?",
+        "a": "Yes, entirely remotely — share the details on WhatsApp and we handle the search."
+      }
     ],
     "whatWeNeed": [
       "Property address and details",
@@ -366,8 +570,14 @@
       "Combined guidance with your EC findings"
     ],
     "references": [
-      { "label": "CERSAI official portal", "url": "https://www.cersai.org.in/" },
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" }
+      {
+        "label": "CERSAI official portal",
+        "url": "https://www.cersai.org.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -404,10 +614,22 @@
     "process": {
       "heading": "How We Verify",
       "steps": [
-        { "name": "Locate the Plot", "desc": "We pin the property to its survey number and geographic location." },
-        { "name": "Overlay FTL & Buffer", "desc": "We check the location against available FTL maps and buffer-zone boundaries for nearby water bodies." },
-        { "name": "Check Notifications", "desc": "We review HYDRAA and lake-protection notifications relevant to the area." },
-        { "name": "Risk Report", "desc": "You receive a clear inside/outside FTL & buffer assessment with the associated construction risk." }
+        {
+          "name": "Locate the Plot",
+          "desc": "We pin the property to its survey number and geographic location."
+        },
+        {
+          "name": "Overlay FTL & Buffer",
+          "desc": "We check the location against available FTL maps and buffer-zone boundaries for nearby water bodies."
+        },
+        {
+          "name": "Check Notifications",
+          "desc": "We review HYDRAA and lake-protection notifications relevant to the area."
+        },
+        {
+          "name": "Risk Report",
+          "desc": "You receive a clear inside/outside FTL & buffer assessment with the associated construction risk."
+        }
       ]
     },
     "documents": [
@@ -417,17 +639,41 @@
       "Current owner details"
     ],
     "challenges": [
-      { "title": "Layouts marketed near lakes", "desc": "Attractive lakeside layouts may sit partly in the buffer. We check the specific plot, not the brochure." },
-      { "title": "Shifting FTL boundaries", "desc": "FTL demarcation can be revised. We use the current available maps and notifications." },
-      { "title": "Nala and low-lying risk", "desc": "It isn't only lakes — nalas and catchments matter too. We flag these." }
+      {
+        "title": "Layouts marketed near lakes",
+        "desc": "Attractive lakeside layouts may sit partly in the buffer. We check the specific plot, not the brochure."
+      },
+      {
+        "title": "Shifting FTL boundaries",
+        "desc": "FTL demarcation can be revised. We use the current available maps and notifications."
+      },
+      {
+        "title": "Nala and low-lying risk",
+        "desc": "It isn't only lakes — nalas and catchments matter too. We flag these."
+      }
     ],
     "whyMatters": "HYDRAA demolitions have shown how quickly construction inside a lake boundary can be lost, with no compensation. Verifying FTL and buffer status before you buy is the difference between a safe investment and a plot you can never legally build on.",
     "faqs": [
-      { "q": "What is HYDRAA?", "a": "The Hyderabad Disaster Response and Assets Protection Agency, tasked with protecting the city's lakes, buffer zones and government assets — including removing encroachments." },
-      { "q": "What is FTL?", "a": "Full Tank Level — the maximum water-spread boundary of a lake or tank. Construction inside the FTL, and often the buffer beyond it, is prohibited." },
-      { "q": "Can I build on a plot in the buffer zone?", "a": "Construction in FTL and buffer zones is restricted and liable to demolition. Such plots are best avoided." },
-      { "q": "How do you check FTL status?", "a": "We locate the plot and check it against available FTL and buffer-zone maps and HYDRAA notifications for the area." },
-      { "q": "Is this needed for gated communities?", "a": "Yes — even approved-looking projects can have blocks near a buffer. We verify the specific plot or unit location." }
+      {
+        "q": "What is HYDRAA?",
+        "a": "The Hyderabad Disaster Response and Assets Protection Agency, tasked with protecting the city's lakes, buffer zones and government assets — including removing encroachments."
+      },
+      {
+        "q": "What is FTL?",
+        "a": "Full Tank Level — the maximum water-spread boundary of a lake or tank. Construction inside the FTL, and often the buffer beyond it, is prohibited."
+      },
+      {
+        "q": "Can I build on a plot in the buffer zone?",
+        "a": "Construction in FTL and buffer zones is restricted and liable to demolition. Such plots are best avoided."
+      },
+      {
+        "q": "How do you check FTL status?",
+        "a": "We locate the plot and check it against available FTL and buffer-zone maps and HYDRAA notifications for the area."
+      },
+      {
+        "q": "Is this needed for gated communities?",
+        "a": "Yes — even approved-looking projects can have blocks near a buffer. We verify the specific plot or unit location."
+      }
     ],
     "whatWeNeed": [
       "Survey/plot number and location",
@@ -440,8 +686,14 @@
       "Clear construction-risk verdict"
     ],
     "references": [
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" },
-      { "label": "GHMC", "url": "https://www.ghmc.gov.in/" }
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
     ]
   },
   {
@@ -478,10 +730,22 @@
     "process": {
       "heading": "How We Verify RERA",
       "steps": [
-        { "name": "Collect Project Details", "desc": "We take the project name, builder name and the RERA number provided to you." },
-        { "name": "Registry Check", "desc": "We verify the number against the TG-RERA registry and confirm it matches the project and phase." },
-        { "name": "Review Declarations", "desc": "We check approved plans, declared completion timeline, and registered project details." },
-        { "name": "Report", "desc": "You receive confirmation of valid/invalid registration plus any red flags in the declarations." }
+        {
+          "name": "Collect Project Details",
+          "desc": "We take the project name, builder name and the RERA number provided to you."
+        },
+        {
+          "name": "Registry Check",
+          "desc": "We verify the number against the TG-RERA registry and confirm it matches the project and phase."
+        },
+        {
+          "name": "Review Declarations",
+          "desc": "We check approved plans, declared completion timeline, and registered project details."
+        },
+        {
+          "name": "Report",
+          "desc": "You receive confirmation of valid/invalid registration plus any red flags in the declarations."
+        }
       ]
     },
     "documents": [
@@ -491,17 +755,41 @@
       "Agent name (if a broker is involved)"
     ],
     "challenges": [
-      { "title": "Expired or wrong-phase number", "desc": "A number may be valid for another phase or lapsed. We confirm it matches your specific unit's project." },
-      { "title": "Unregistered agents", "desc": "Agents must also be RERA-registered. We check the broker's status too." },
-      { "title": "Timeline vs reality", "desc": "We surface declared completion dates so you can hold the builder to them." }
+      {
+        "title": "Expired or wrong-phase number",
+        "desc": "A number may be valid for another phase or lapsed. We confirm it matches your specific unit's project."
+      },
+      {
+        "title": "Unregistered agents",
+        "desc": "Agents must also be RERA-registered. We check the broker's status too."
+      },
+      {
+        "title": "Timeline vs reality",
+        "desc": "We surface declared completion dates so you can hold the builder to them."
+      }
     ],
     "whyMatters": "RERA is only a shield if the project is actually registered. Verifying the certificate before booking is how you keep access to RERA's timelines, disclosures and complaint mechanism — instead of discovering, after paying, that you have none of them.",
     "faqs": [
-      { "q": "What is TG-RERA?", "a": "The Telangana Real Estate Regulatory Authority, with which qualifying real estate projects and agents must register." },
-      { "q": "How do I know a RERA number is genuine?", "a": "It must be verifiable on the TG-RERA registry and match the exact project and phase you are booking. We confirm this for you." },
-      { "q": "Do agents need RERA registration?", "a": "Yes — real estate agents must be registered. We verify the agent's status as well as the project's." },
-      { "q": "Is a completed project registered?", "a": "Requirements differ for completed vs under-construction projects; for ongoing projects registration is mandatory. We advise based on the project's stage." },
-      { "q": "Can you check before I pay a token?", "a": "Yes, and you should verify before any payment. Share the details and we confirm quickly." }
+      {
+        "q": "What is TG-RERA?",
+        "a": "The Telangana Real Estate Regulatory Authority, with which qualifying real estate projects and agents must register."
+      },
+      {
+        "q": "How do I know a RERA number is genuine?",
+        "a": "It must be verifiable on the TG-RERA registry and match the exact project and phase you are booking. We confirm this for you."
+      },
+      {
+        "q": "Do agents need RERA registration?",
+        "a": "Yes — real estate agents must be registered. We verify the agent's status as well as the project's."
+      },
+      {
+        "q": "Is a completed project registered?",
+        "a": "Requirements differ for completed vs under-construction projects; for ongoing projects registration is mandatory. We advise based on the project's stage."
+      },
+      {
+        "q": "Can you check before I pay a token?",
+        "a": "Yes, and you should verify before any payment. Share the details and we confirm quickly."
+      }
     ],
     "whatWeNeed": [
       "Project and builder name",
@@ -514,8 +802,14 @@
       "Agent registration check"
     ],
     "references": [
-      { "label": "Telangana RERA", "url": "https://rera.telangana.gov.in/" },
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" }
+      {
+        "label": "Telangana RERA",
+        "url": "https://rera.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -552,10 +846,22 @@
     "process": {
       "heading": "How We Trace the Property",
       "steps": [
-        { "name": "Gather What You Know", "desc": "We collect ancestor names, approximate village/mandal, and any old document fragments or family knowledge." },
-        { "name": "Search Historical Records", "desc": "We search old pahani/adangal, revenue records and registration indexes by name and locality." },
-        { "name": "Locate & Confirm", "desc": "We identify candidate survey numbers and confirm the link to your family." },
-        { "name": "Current Status", "desc": "We pull the present ownership, mutation, EC and any encumbrance on the located property." }
+        {
+          "name": "Gather What You Know",
+          "desc": "We collect ancestor names, approximate village/mandal, and any old document fragments or family knowledge."
+        },
+        {
+          "name": "Search Historical Records",
+          "desc": "We search old pahani/adangal, revenue records and registration indexes by name and locality."
+        },
+        {
+          "name": "Locate & Confirm",
+          "desc": "We identify candidate survey numbers and confirm the link to your family."
+        },
+        {
+          "name": "Current Status",
+          "desc": "We pull the present ownership, mutation, EC and any encumbrance on the located property."
+        }
       ]
     },
     "documents": [
@@ -565,17 +871,41 @@
       "Family tree / relationship details"
     ],
     "challenges": [
-      { "title": "Name spelling variations", "desc": "Old records use inconsistent spellings. We search across variants to catch matches." },
-      { "title": "Lost village boundaries", "desc": "Villages and mandals have been reorganised. We map old names to current jurisdictions." },
-      { "title": "Records split by mutation", "desc": "Land may have been mutated to heirs or sold. We follow the trail to the current status." }
+      {
+        "title": "Name spelling variations",
+        "desc": "Old records use inconsistent spellings. We search across variants to catch matches."
+      },
+      {
+        "title": "Lost village boundaries",
+        "desc": "Villages and mandals have been reorganised. We map old names to current jurisdictions."
+      },
+      {
+        "title": "Records split by mutation",
+        "desc": "Land may have been mutated to heirs or sold. We follow the trail to the current status."
+      }
     ],
     "whyMatters": "Ancestral land left untraced quietly slips away — through encroachment, unauthorised sale, or simply being forgotten until the records vanish. Locating it now, while any living memory remains, is what makes a future claim or partition possible.",
     "faqs": [
-      { "q": "I only know the village name — can you still help?", "a": "Often yes. With an ancestor's name and an approximate village, we can search historical records to locate candidate properties." },
-      { "q": "What if the spelling of the name is different in records?", "a": "We search across common spelling variations, which is essential for older handwritten records." },
-      { "q": "Can you tell me who owns it now?", "a": "Yes. Once located, we pull the current ownership, mutation status and encumbrance." },
-      { "q": "Is this useful for inheritance claims?", "a": "Very. Locating and documenting the property is the necessary first step before any partition or succession claim." },
-      { "q": "Can NRIs use this remotely?", "a": "Yes — this service is designed for families living outside Hyderabad or abroad." }
+      {
+        "q": "I only know the village name — can you still help?",
+        "a": "Often yes. With an ancestor's name and an approximate village, we can search historical records to locate candidate properties."
+      },
+      {
+        "q": "What if the spelling of the name is different in records?",
+        "a": "We search across common spelling variations, which is essential for older handwritten records."
+      },
+      {
+        "q": "Can you tell me who owns it now?",
+        "a": "Yes. Once located, we pull the current ownership, mutation status and encumbrance."
+      },
+      {
+        "q": "Is this useful for inheritance claims?",
+        "a": "Very. Locating and documenting the property is the necessary first step before any partition or succession claim."
+      },
+      {
+        "q": "Can NRIs use this remotely?",
+        "a": "Yes — this service is designed for families living outside Hyderabad or abroad."
+      }
     ],
     "whatWeNeed": [
       "Ancestor name and relationship details",
@@ -588,8 +918,14 @@
       "EC and encumbrance on the located property"
     ],
     "references": [
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" },
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" }
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -626,10 +962,22 @@
     "process": {
       "heading": "The Mutation Process",
       "steps": [
-        { "name": "Document Review", "desc": "We review your registered deed, prior records and identity documents to confirm mutation eligibility." },
-        { "name": "Application Filing", "desc": "We file the mutation application with the correct office — land records for agricultural land, GHMC/municipality for urban property." },
-        { "name": "Verification", "desc": "We coordinate the field/record verification by the revenue or municipal officer." },
-        { "name": "Approval & Updated Record", "desc": "On approval, the record is updated and we deliver your mutated extract / updated record." }
+        {
+          "name": "Document Review",
+          "desc": "We review your registered deed, prior records and identity documents to confirm mutation eligibility."
+        },
+        {
+          "name": "Application Filing",
+          "desc": "We file the mutation application with the correct office — land records for agricultural land, GHMC/municipality for urban property."
+        },
+        {
+          "name": "Verification",
+          "desc": "We coordinate the field/record verification by the revenue or municipal officer."
+        },
+        {
+          "name": "Approval & Updated Record",
+          "desc": "On approval, the record is updated and we deliver your mutated extract / updated record."
+        }
       ]
     },
     "documents": [
@@ -640,17 +988,41 @@
       "Death certificate & legal heir proof (for inheritance)"
     ],
     "challenges": [
-      { "title": "Seller never mutated", "desc": "If the previous owner's mutation is missing, yours can't proceed. We fix the chain first." },
-      { "title": "Record mismatches", "desc": "Name or extent mismatches between deed and record stall mutation. We reconcile them." },
-      { "title": "Inheritance without a will", "desc": "Intestate succession needs legal-heir proof. We guide and assemble the required documents." }
+      {
+        "title": "Seller never mutated",
+        "desc": "If the previous owner's mutation is missing, yours can't proceed. We fix the chain first."
+      },
+      {
+        "title": "Record mismatches",
+        "desc": "Name or extent mismatches between deed and record stall mutation. We reconcile them."
+      },
+      {
+        "title": "Inheritance without a will",
+        "desc": "Intestate succession needs legal-heir proof. We guide and assemble the required documents."
+      }
     ],
     "whyMatters": "Until mutation is done, the government still treats the previous owner as the record-holder — which blocks property-tax updates, complicates future sales and can expose you to disputes. Completing mutation is what makes your ownership visible in the records that matter.",
     "faqs": [
-      { "q": "Is registration the same as mutation?", "a": "No. Registration records the deed at the SRO; mutation updates the revenue/municipal records to show you as owner. Both are needed." },
-      { "q": "How long does mutation take in Hyderabad?", "a": "It varies by property type and office workload — typically a few weeks once documents are in order. We follow up throughout." },
-      { "q": "Can NRIs get mutation done remotely?", "a": "Yes. Share your documents on WhatsApp and we handle filing and follow-up; a signature or POA may be required for some steps." },
-      { "q": "What if the seller's mutation was never done?", "a": "That gap must be closed before your mutation. We assess the chain and complete the missing step." },
-      { "q": "Do I need mutation to pay property tax in my name?", "a": "Yes — property tax records follow the mutated owner, so mutation is what puts the tax liability and receipts in your name." }
+      {
+        "q": "Is registration the same as mutation?",
+        "a": "No. Registration records the deed at the SRO; mutation updates the revenue/municipal records to show you as owner. Both are needed."
+      },
+      {
+        "q": "How long does mutation take in Hyderabad?",
+        "a": "It varies by property type and office workload — typically a few weeks once documents are in order. We follow up throughout."
+      },
+      {
+        "q": "Can NRIs get mutation done remotely?",
+        "a": "Yes. Share your documents on WhatsApp and we handle filing and follow-up; a signature or POA may be required for some steps."
+      },
+      {
+        "q": "What if the seller's mutation was never done?",
+        "a": "That gap must be closed before your mutation. We assess the chain and complete the missing step."
+      },
+      {
+        "q": "Do I need mutation to pay property tax in my name?",
+        "a": "Yes — property tax records follow the mutated owner, so mutation is what puts the tax liability and receipts in your name."
+      }
     ],
     "whatWeNeed": [
       "Registered deed and prior title document",
@@ -663,8 +1035,14 @@
       "Your mutated extract, delivered digitally"
     ],
     "references": [
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" },
-      { "label": "GHMC", "url": "https://www.ghmc.gov.in/" }
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
     ]
   },
   {
@@ -701,10 +1079,22 @@
     "process": {
       "heading": "The Registration Process",
       "steps": [
-        { "name": "Deed Drafting", "desc": "We draft the sale/gift/transfer deed with correct parties, schedule and clauses." },
-        { "name": "Stamp Duty & Fees", "desc": "We compute stamp duty and registration fee on the correct market value and arrange payment." },
-        { "name": "Slot Booking", "desc": "We book the Sub-Registrar Office appointment for registration." },
-        { "name": "Registration & Delivery", "desc": "We coordinate the SRO appearance and deliver your registered, endorsed deed." }
+        {
+          "name": "Deed Drafting",
+          "desc": "We draft the sale/gift/transfer deed with correct parties, schedule and clauses."
+        },
+        {
+          "name": "Stamp Duty & Fees",
+          "desc": "We compute stamp duty and registration fee on the correct market value and arrange payment."
+        },
+        {
+          "name": "Slot Booking",
+          "desc": "We book the Sub-Registrar Office appointment for registration."
+        },
+        {
+          "name": "Registration & Delivery",
+          "desc": "We coordinate the SRO appearance and deliver your registered, endorsed deed."
+        }
       ]
     },
     "documents": [
@@ -715,17 +1105,41 @@
       "Power of Attorney (if a party cannot attend)"
     ],
     "challenges": [
-      { "title": "Under-valuation penalties", "desc": "Registering below the market/guidance value invites penalties. We value it correctly." },
-      { "title": "Defective deed clauses", "desc": "Poorly drafted deeds cause future disputes. Our advocates draft it properly." },
-      { "title": "NRI attendance", "desc": "When you can't attend, a valid POA is essential. We guide its correct execution." }
+      {
+        "title": "Under-valuation penalties",
+        "desc": "Registering below the market/guidance value invites penalties. We value it correctly."
+      },
+      {
+        "title": "Defective deed clauses",
+        "desc": "Poorly drafted deeds cause future disputes. Our advocates draft it properly."
+      },
+      {
+        "title": "NRI attendance",
+        "desc": "When you can't attend, a valid POA is essential. We guide its correct execution."
+      }
     ],
     "whyMatters": "A property deal only becomes yours in law when it is registered correctly. Doing it right — proper deed, correct duty, valid execution — is what protects you from rejection today and from a title dispute a decade from now.",
     "faqs": [
-      { "q": "Can you draft the sale deed too?", "a": "Yes. Our advocates draft the deed with the correct schedule, parties and clauses before registration." },
-      { "q": "How is stamp duty calculated?", "a": "On the higher of the transaction value and the government market/guidance value, at the applicable Telangana rates. We compute it precisely." },
-      { "q": "Can an NRI register through Power of Attorney?", "a": "Yes, with a properly executed and, where required, adjudicated POA. We guide you through it." },
-      { "q": "What happens if I don't register?", "a": "An unregistered sale generally cannot establish ownership and is not admissible as evidence of title, leaving you legally exposed." },
-      { "q": "Do you handle gift and partition deeds?", "a": "Yes — sale, gift, partition and transfer deeds are all handled end to end." }
+      {
+        "q": "Can you draft the sale deed too?",
+        "a": "Yes. Our advocates draft the deed with the correct schedule, parties and clauses before registration."
+      },
+      {
+        "q": "How is stamp duty calculated?",
+        "a": "On the higher of the transaction value and the government market/guidance value, at the applicable Telangana rates. We compute it precisely."
+      },
+      {
+        "q": "Can an NRI register through Power of Attorney?",
+        "a": "Yes, with a properly executed and, where required, adjudicated POA. We guide you through it."
+      },
+      {
+        "q": "What happens if I don't register?",
+        "a": "An unregistered sale generally cannot establish ownership and is not admissible as evidence of title, leaving you legally exposed."
+      },
+      {
+        "q": "Do you handle gift and partition deeds?",
+        "a": "Yes — sale, gift, partition and transfer deeds are all handled end to end."
+      }
     ],
     "whatWeNeed": [
       "Prior title deed / agreement of sale",
@@ -738,8 +1152,14 @@
       "Registered, endorsed deed delivered"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -776,10 +1196,22 @@
     "process": {
       "heading": "How Translation Works",
       "steps": [
-        { "name": "Send the Documents", "desc": "Share clear scans of the Telugu/Urdu documents you need translated." },
-        { "name": "Accurate Translation", "desc": "We translate the full text — parties, schedule, boundaries and clauses — preserving legal meaning." },
-        { "name": "Review", "desc": "The translation is reviewed for accuracy of legal and revenue terminology." },
-        { "name": "Delivery", "desc": "You receive the translated set, formatted for bank, court or official use." }
+        {
+          "name": "Send the Documents",
+          "desc": "Share clear scans of the Telugu/Urdu documents you need translated."
+        },
+        {
+          "name": "Accurate Translation",
+          "desc": "We translate the full text — parties, schedule, boundaries and clauses — preserving legal meaning."
+        },
+        {
+          "name": "Review",
+          "desc": "The translation is reviewed for accuracy of legal and revenue terminology."
+        },
+        {
+          "name": "Delivery",
+          "desc": "You receive the translated set, formatted for bank, court or official use."
+        }
       ]
     },
     "documents": [
@@ -789,17 +1221,41 @@
       "Any specific name spellings to preserve"
     ],
     "challenges": [
-      { "title": "Legacy Urdu records", "desc": "Old Urdu deeds need genuine reading ability. We handle historic scripts, not just modern text." },
-      { "title": "Boundary & schedule accuracy", "desc": "The property schedule and boundaries must be exact. We translate them precisely." },
-      { "title": "Consistent name spelling", "desc": "Names must match across documents. We keep spellings consistent for official acceptance." }
+      {
+        "title": "Legacy Urdu records",
+        "desc": "Old Urdu deeds need genuine reading ability. We handle historic scripts, not just modern text."
+      },
+      {
+        "title": "Boundary & schedule accuracy",
+        "desc": "The property schedule and boundaries must be exact. We translate them precisely."
+      },
+      {
+        "title": "Consistent name spelling",
+        "desc": "Names must match across documents. We keep spellings consistent for official acceptance."
+      }
     ],
     "whyMatters": "A single mistranslated boundary or clause can derail a loan file or weaken a case in court. Accurate, consistent translation is what lets your vernacular documents be accepted and understood wherever you need them.",
     "faqs": [
-      { "q": "Which languages do you translate?", "a": "Primarily Telugu and Urdu property documents into English, and English into these where needed." },
-      { "q": "Do you translate old handwritten deeds?", "a": "Yes, including legacy Urdu and older Telugu records, provided the scan is legible." },
-      { "q": "Will banks accept the translation?", "a": "We format the translation for bank, court and official use. Specific certification requirements vary and we advise accordingly." },
-      { "q": "Can you keep name spellings consistent?", "a": "Yes — consistent spelling across documents is essential for acceptance and we maintain it." },
-      { "q": "Can I send documents by WhatsApp?", "a": "Yes. Share clear scans and we handle the rest remotely." }
+      {
+        "q": "Which languages do you translate?",
+        "a": "Primarily Telugu and Urdu property documents into English, and English into these where needed."
+      },
+      {
+        "q": "Do you translate old handwritten deeds?",
+        "a": "Yes, including legacy Urdu and older Telugu records, provided the scan is legible."
+      },
+      {
+        "q": "Will banks accept the translation?",
+        "a": "We format the translation for bank, court and official use. Specific certification requirements vary and we advise accordingly."
+      },
+      {
+        "q": "Can you keep name spellings consistent?",
+        "a": "Yes — consistent spelling across documents is essential for acceptance and we maintain it."
+      },
+      {
+        "q": "Can I send documents by WhatsApp?",
+        "a": "Yes. Share clear scans and we handle the rest remotely."
+      }
     ],
     "whatWeNeed": [
       "Legible scans of source documents",
@@ -812,8 +1268,14 @@
       "Formatted for your intended use"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -850,10 +1312,22 @@
     "process": {
       "heading": "How We Create Your VLT",
       "steps": [
-        { "name": "Verify the Plot", "desc": "We confirm the plot details, extent and municipal jurisdiction." },
-        { "name": "Prepare Application", "desc": "We prepare the VLT assessment application with your ownership documents." },
-        { "name": "File & Coordinate", "desc": "We file with GHMC/the municipality and coordinate the assessment." },
-        { "name": "VLT Record Created", "desc": "You receive your VLT assessment/number and guidance on paying the tax." }
+        {
+          "name": "Verify the Plot",
+          "desc": "We confirm the plot details, extent and municipal jurisdiction."
+        },
+        {
+          "name": "Prepare Application",
+          "desc": "We prepare the VLT assessment application with your ownership documents."
+        },
+        {
+          "name": "File & Coordinate",
+          "desc": "We file with GHMC/the municipality and coordinate the assessment."
+        },
+        {
+          "name": "VLT Record Created",
+          "desc": "You receive your VLT assessment/number and guidance on paying the tax."
+        }
       ]
     },
     "documents": [
@@ -864,17 +1338,41 @@
       "Any prior tax reference (if available)"
     ],
     "challenges": [
-      { "title": "Plot not on municipal map", "desc": "Newly formed plots may not be mapped. We establish the plot with the municipality." },
-      { "title": "Extent mismatches", "desc": "Recorded extent may differ from the deed. We reconcile before assessment." },
-      { "title": "Jurisdiction confusion", "desc": "Peripheral plots span GHMC vs municipality lines. We file with the correct body." }
+      {
+        "title": "Plot not on municipal map",
+        "desc": "Newly formed plots may not be mapped. We establish the plot with the municipality."
+      },
+      {
+        "title": "Extent mismatches",
+        "desc": "Recorded extent may differ from the deed. We reconcile before assessment."
+      },
+      {
+        "title": "Jurisdiction confusion",
+        "desc": "Peripheral plots span GHMC vs municipality lines. We file with the correct body."
+      }
     ],
     "whyMatters": "An unregistered vacant plot is a plot the municipality doesn't formally recognise as yours in its tax records — which weakens your possession and complicates permissions and sales. Creating the VLT record puts your plot on the books, in your name.",
     "faqs": [
-      { "q": "What is VLT?", "a": "Vacant Land Tax — the municipal tax on open plots without a building, assessed by GHMC or the local municipality." },
-      { "q": "Why register a vacant plot for VLT?", "a": "It fulfils the tax obligation, puts your plot on the municipal record as evidence of possession, and is often needed for later approvals and sales." },
-      { "q": "Is VLT the same as PTIN?", "a": "They are related tax identities; VLT is for vacant land, while PTIN is the property tax identification typically for built property. We can help with both." },
-      { "q": "Can this be done remotely?", "a": "Yes. Share your plot and ownership documents on WhatsApp and we handle the filing." },
-      { "q": "What if my plot's extent is wrong in records?", "a": "We reconcile the recorded extent with your deed before the assessment is finalised." }
+      {
+        "q": "What is VLT?",
+        "a": "Vacant Land Tax — the municipal tax on open plots without a building, assessed by GHMC or the local municipality."
+      },
+      {
+        "q": "Why register a vacant plot for VLT?",
+        "a": "It fulfils the tax obligation, puts your plot on the municipal record as evidence of possession, and is often needed for later approvals and sales."
+      },
+      {
+        "q": "Is VLT the same as PTIN?",
+        "a": "They are related tax identities; VLT is for vacant land, while PTIN is the property tax identification typically for built property. We can help with both."
+      },
+      {
+        "q": "Can this be done remotely?",
+        "a": "Yes. Share your plot and ownership documents on WhatsApp and we handle the filing."
+      },
+      {
+        "q": "What if my plot's extent is wrong in records?",
+        "a": "We reconcile the recorded extent with your deed before the assessment is finalised."
+      }
     ],
     "whatWeNeed": [
       "Registered plot document",
@@ -887,8 +1385,14 @@
       "Guidance on paying the tax"
     ],
     "references": [
-      { "label": "GHMC", "url": "https://www.ghmc.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -925,10 +1429,22 @@
     "process": {
       "heading": "How Monitoring Works",
       "steps": [
-        { "name": "Register the Property", "desc": "We record your plot details, ownership and the risks you're most concerned about." },
-        { "name": "Periodic Checks", "desc": "We periodically check registration and revenue records plus the physical status of the plot." },
-        { "name": "Alert on Change", "desc": "If we detect a new registration, mutation attempt or encroachment, we alert you promptly." },
-        { "name": "Guidance to Act", "desc": "We advise the immediate steps — legal notice, complaint or documentation — to protect your position." }
+        {
+          "name": "Register the Property",
+          "desc": "We record your plot details, ownership and the risks you're most concerned about."
+        },
+        {
+          "name": "Periodic Checks",
+          "desc": "We periodically check registration and revenue records plus the physical status of the plot."
+        },
+        {
+          "name": "Alert on Change",
+          "desc": "If we detect a new registration, mutation attempt or encroachment, we alert you promptly."
+        },
+        {
+          "name": "Guidance to Act",
+          "desc": "We advise the immediate steps — legal notice, complaint or documentation — to protect your position."
+        }
       ]
     },
     "documents": [
@@ -938,17 +1454,41 @@
       "Location details / boundary description"
     ],
     "challenges": [
-      { "title": "Silent record changes", "desc": "Fraudulent mutations can happen quietly. Periodic record checks surface them early." },
-      { "title": "Gradual encroachment", "desc": "Encroachers start small. Physical monitoring catches it before possession hardens." },
-      { "title": "Absent owner disadvantage", "desc": "Distance is the encroacher's advantage. Monitoring closes that gap." }
+      {
+        "title": "Silent record changes",
+        "desc": "Fraudulent mutations can happen quietly. Periodic record checks surface them early."
+      },
+      {
+        "title": "Gradual encroachment",
+        "desc": "Encroachers start small. Physical monitoring catches it before possession hardens."
+      },
+      {
+        "title": "Absent owner disadvantage",
+        "desc": "Distance is the encroacher's advantage. Monitoring closes that gap."
+      }
     ],
     "whyMatters": "Once an encroacher establishes possession or a fraudulent sale is registered, undoing it takes years in court. Monitoring turns a future lawsuit into an early alert you can still act on cheaply.",
     "faqs": [
-      { "q": "How often do you check the property?", "a": "On a periodic schedule agreed with you, covering both records and physical status. Frequency can be tailored to the risk." },
-      { "q": "What kinds of alerts will I get?", "a": "New registrations against the property, mutation attempts, and signs of physical encroachment or boundary change." },
-      { "q": "Is this useful for NRIs?", "a": "Especially so — it is built for owners who cannot personally watch their plot." },
-      { "q": "What do I do if you find something?", "a": "We alert you immediately and advise the right first steps, from legal notice to complaint to documentation." },
-      { "q": "Does monitoring prevent encroachment?", "a": "It provides early detection, which is what makes prevention and quick action possible; it cannot physically stop a trespass on its own." }
+      {
+        "q": "How often do you check the property?",
+        "a": "On a periodic schedule agreed with you, covering both records and physical status. Frequency can be tailored to the risk."
+      },
+      {
+        "q": "What kinds of alerts will I get?",
+        "a": "New registrations against the property, mutation attempts, and signs of physical encroachment or boundary change."
+      },
+      {
+        "q": "Is this useful for NRIs?",
+        "a": "Especially so — it is built for owners who cannot personally watch their plot."
+      },
+      {
+        "q": "What do I do if you find something?",
+        "a": "We alert you immediately and advise the right first steps, from legal notice to complaint to documentation."
+      },
+      {
+        "q": "Does monitoring prevent encroachment?",
+        "a": "It provides early detection, which is what makes prevention and quick action possible; it cannot physically stop a trespass on its own."
+      }
     ],
     "whatWeNeed": [
       "Registered plot document",
@@ -961,8 +1501,14 @@
       "Guidance on protective action"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "Telangana land records (Dharani)", "url": "https://dharani.telangana.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -999,10 +1545,22 @@
     "process": {
       "heading": "How We Value the Property",
       "steps": [
-        { "name": "Property Details", "desc": "We collect the location, extent, type, age and condition of the property." },
-        { "name": "Market & Guidance Study", "desc": "We study comparable transactions and the applicable government guidance value." },
-        { "name": "Assessment", "desc": "We arrive at market and guidance-value figures with the reasoning behind them." },
-        { "name": "Valuation Report", "desc": "You receive a documented valuation report suitable for your purpose." }
+        {
+          "name": "Property Details",
+          "desc": "We collect the location, extent, type, age and condition of the property."
+        },
+        {
+          "name": "Market & Guidance Study",
+          "desc": "We study comparable transactions and the applicable government guidance value."
+        },
+        {
+          "name": "Assessment",
+          "desc": "We arrive at market and guidance-value figures with the reasoning behind them."
+        },
+        {
+          "name": "Valuation Report",
+          "desc": "You receive a documented valuation report suitable for your purpose."
+        }
       ]
     },
     "documents": [
@@ -1013,17 +1571,41 @@
       "Purpose of valuation"
     ],
     "challenges": [
-      { "title": "Guidance vs market gap", "desc": "The registration value often differs sharply from the market. We report both and explain the gap." },
-      { "title": "Thin comparables", "desc": "Some micro-markets have few recent sales. We widen the comparison sensibly." },
-      { "title": "Dispute-grade defensibility", "desc": "For settlements and courts, the figure must be reasoned. We document the basis." }
+      {
+        "title": "Guidance vs market gap",
+        "desc": "The registration value often differs sharply from the market. We report both and explain the gap."
+      },
+      {
+        "title": "Thin comparables",
+        "desc": "Some micro-markets have few recent sales. We widen the comparison sensibly."
+      },
+      {
+        "title": "Dispute-grade defensibility",
+        "desc": "For settlements and courts, the figure must be reasoned. We document the basis."
+      }
     ],
     "whyMatters": "Pricing a property on rumour or a broker's number is how people over-pay when buying and under-sell when selling. A reasoned valuation gives you a defensible figure to negotiate, borrow, settle or decide against.",
     "faqs": [
-      { "q": "What's the difference between market value and guidance value?", "a": "Market value is what the property realistically sells for; guidance (registration) value is the government's minimum value for stamp duty. They often differ, and both matter." },
-      { "q": "Can I use the report for a bank loan?", "a": "The report supports loan discussions; banks may also require their own empanelled valuer, and we advise on this." },
-      { "q": "Do you value both land and flats?", "a": "Yes — open plots, agricultural land, houses and apartments." },
-      { "q": "Is this useful for family settlements?", "a": "Very. A documented, reasoned value helps divide property fairly and reduces disputes." },
-      { "q": "Can NRIs get this remotely?", "a": "Yes. Share the property details and purpose and we deliver the report digitally." }
+      {
+        "q": "What's the difference between market value and guidance value?",
+        "a": "Market value is what the property realistically sells for; guidance (registration) value is the government's minimum value for stamp duty. They often differ, and both matter."
+      },
+      {
+        "q": "Can I use the report for a bank loan?",
+        "a": "The report supports loan discussions; banks may also require their own empanelled valuer, and we advise on this."
+      },
+      {
+        "q": "Do you value both land and flats?",
+        "a": "Yes — open plots, agricultural land, houses and apartments."
+      },
+      {
+        "q": "Is this useful for family settlements?",
+        "a": "Very. A documented, reasoned value helps divide property fairly and reduces disputes."
+      },
+      {
+        "q": "Can NRIs get this remotely?",
+        "a": "Yes. Share the property details and purpose and we deliver the report digitally."
+      }
     ],
     "whatWeNeed": [
       "Property location and details",
@@ -1036,8 +1618,14 @@
       "A written valuation report"
     ],
     "references": [
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" },
-      { "label": "GHMC", "url": "https://www.ghmc.gov.in/" }
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
     ]
   },
   {
@@ -1074,10 +1662,22 @@
     "process": {
       "heading": "How We Retrieve It",
       "steps": [
-        { "name": "Share Property Details", "desc": "Send us the PTIN, or the property address/details to locate it." },
-        { "name": "Look Up the Record", "desc": "We retrieve the GHMC property tax record, current dues and payment history." },
-        { "name": "Get Receipts", "desc": "We obtain the paid receipts and current status you need." },
-        { "name": "Delivery & Guidance", "desc": "You receive the receipts digitally, with guidance on clearing any arrears." }
+        {
+          "name": "Share Property Details",
+          "desc": "Send us the PTIN, or the property address/details to locate it."
+        },
+        {
+          "name": "Look Up the Record",
+          "desc": "We retrieve the GHMC property tax record, current dues and payment history."
+        },
+        {
+          "name": "Get Receipts",
+          "desc": "We obtain the paid receipts and current status you need."
+        },
+        {
+          "name": "Delivery & Guidance",
+          "desc": "You receive the receipts digitally, with guidance on clearing any arrears."
+        }
       ]
     },
     "documents": [
@@ -1087,17 +1687,41 @@
       "Any prior tax receipt (if available)"
     ],
     "challenges": [
-      { "title": "Lost or unknown PTIN", "desc": "We locate the PTIN from the property address and owner details." },
-      { "title": "Hidden arrears", "desc": "Older unpaid dues plus penalties can surprise sellers. We surface the full picture." },
-      { "title": "Assessment mismatches", "desc": "Wrong built-up area or usage inflates tax. We help identify assessment errors." }
+      {
+        "title": "Lost or unknown PTIN",
+        "desc": "We locate the PTIN from the property address and owner details."
+      },
+      {
+        "title": "Hidden arrears",
+        "desc": "Older unpaid dues plus penalties can surprise sellers. We surface the full picture."
+      },
+      {
+        "title": "Assessment mismatches",
+        "desc": "Wrong built-up area or usage inflates tax. We help identify assessment errors."
+      }
     ],
     "whyMatters": "Property tax arrears don't just cost penalties — they stall sales and mutations, because buyers and offices want to see a clean, paid record. Keeping the receipt current is a small task that prevents a last-minute deal blocker.",
     "faqs": [
-      { "q": "What is a PTIN?", "a": "The Property Tax Identification Number under which GHMC assesses and records property tax for your property." },
-      { "q": "I don't know my PTIN — can you find it?", "a": "Yes. With the property address and owner name we can locate the PTIN and record." },
-      { "q": "Why do I need the latest tax receipt?", "a": "It is standard in loan files and is checked before sale and mutation to confirm there are no arrears." },
-      { "q": "Can you help clear arrears?", "a": "We surface the dues and penalties and guide you through clearing them; the payment itself is made by the owner." },
-      { "q": "Can NRIs get this remotely?", "a": "Yes. Share your details on WhatsApp and we retrieve everything digitally." }
+      {
+        "q": "What is a PTIN?",
+        "a": "The Property Tax Identification Number under which GHMC assesses and records property tax for your property."
+      },
+      {
+        "q": "I don't know my PTIN — can you find it?",
+        "a": "Yes. With the property address and owner name we can locate the PTIN and record."
+      },
+      {
+        "q": "Why do I need the latest tax receipt?",
+        "a": "It is standard in loan files and is checked before sale and mutation to confirm there are no arrears."
+      },
+      {
+        "q": "Can you help clear arrears?",
+        "a": "We surface the dues and penalties and guide you through clearing them; the payment itself is made by the owner."
+      },
+      {
+        "q": "Can NRIs get this remotely?",
+        "a": "Yes. Share your details on WhatsApp and we retrieve everything digitally."
+      }
     ],
     "whatWeNeed": [
       "PTIN or property address",
@@ -1110,8 +1734,14 @@
       "Paid receipts, delivered digitally"
     ],
     "references": [
-      { "label": "GHMC property tax", "url": "https://www.ghmc.gov.in/" },
-      { "label": "Telangana Registration & Stamps Department", "url": "https://registration.telangana.gov.in/" }
+      {
+        "label": "GHMC property tax",
+        "url": "https://www.ghmc.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
     ]
   },
   {
@@ -1148,10 +1778,22 @@
     "process": {
       "heading": "How the Transfer Works",
       "steps": [
-        { "name": "Collect Documents", "desc": "We gather your ownership proof, the latest bill and identity documents." },
-        { "name": "Prepare Application", "desc": "We prepare the TGSPDCL name-change/transfer application." },
-        { "name": "File & Follow Up", "desc": "We submit the application and follow up with the distribution office." },
-        { "name": "Name Updated", "desc": "The connection is updated to your name and future bills reflect it." }
+        {
+          "name": "Collect Documents",
+          "desc": "We gather your ownership proof, the latest bill and identity documents."
+        },
+        {
+          "name": "Prepare Application",
+          "desc": "We prepare the TGSPDCL name-change/transfer application."
+        },
+        {
+          "name": "File & Follow Up",
+          "desc": "We submit the application and follow up with the distribution office."
+        },
+        {
+          "name": "Name Updated",
+          "desc": "The connection is updated to your name and future bills reflect it."
+        }
       ]
     },
     "documents": [
@@ -1162,17 +1804,41 @@
       "Legal-heir proof (for inheritance)"
     ],
     "challenges": [
-      { "title": "Seller's dues pending", "desc": "Outstanding bills block the transfer. We identify and help clear them first." },
-      { "title": "Old connection details", "desc": "Missing service numbers slow things down. We trace the connection from the bill." },
-      { "title": "Inheritance transfers", "desc": "Transfers on inheritance need heir proof. We assemble the right documents." }
+      {
+        "title": "Seller's dues pending",
+        "desc": "Outstanding bills block the transfer. We identify and help clear them first."
+      },
+      {
+        "title": "Old connection details",
+        "desc": "Missing service numbers slow things down. We trace the connection from the bill."
+      },
+      {
+        "title": "Inheritance transfers",
+        "desc": "Transfers on inheritance need heir proof. We assemble the right documents."
+      }
     ],
     "whyMatters": "Leaving the connection in the previous owner's name means the bills, and the occupancy proof they provide, still point to someone else. Transferring it puts a clean, in-your-name utility record on file — useful far beyond just paying the bill.",
     "faqs": [
-      { "q": "Why change the electricity connection name?", "a": "So billing and the associated occupancy/address proof are in your name after you become the owner." },
-      { "q": "What if the seller has unpaid bills?", "a": "Pending dues must usually be cleared before transfer. We identify them and guide clearing them." },
-      { "q": "Can this be done for inherited property?", "a": "Yes, with legal-heir proof, which we help assemble." },
-      { "q": "Do I need to be in Hyderabad?", "a": "No. Share your documents on WhatsApp and we handle filing and follow-up remotely." },
-      { "q": "How long does it take?", "a": "It depends on the distribution office and any pending dues; we follow up until it's done." }
+      {
+        "q": "Why change the electricity connection name?",
+        "a": "So billing and the associated occupancy/address proof are in your name after you become the owner."
+      },
+      {
+        "q": "What if the seller has unpaid bills?",
+        "a": "Pending dues must usually be cleared before transfer. We identify them and guide clearing them."
+      },
+      {
+        "q": "Can this be done for inherited property?",
+        "a": "Yes, with legal-heir proof, which we help assemble."
+      },
+      {
+        "q": "Do I need to be in Hyderabad?",
+        "a": "No. Share your documents on WhatsApp and we handle filing and follow-up remotely."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "It depends on the distribution office and any pending dues; we follow up until it's done."
+      }
     ],
     "whatWeNeed": [
       "Ownership proof and latest bill",
@@ -1185,8 +1851,1294 @@
       "Connection updated to your name"
     ],
     "references": [
-      { "label": "TGSPDCL (Telangana Southern Power)", "url": "https://tgsouthernpower.org/" },
-      { "label": "GHMC", "url": "https://www.ghmc.gov.in/" }
+      {
+        "label": "TGSPDCL (Telangana Southern Power)",
+        "url": "https://tgsouthernpower.org/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
     ]
+  },
+  {
+    "slug": "pattadhar-passbook-hyderabad",
+    "service": "Pattadhar Passbook",
+    "category": "Land Records (Telangana)",
+    "title": "Pattadhar Passbook Telangana | Electronic PPB Hyderabad",
+    "metaDescription": "Get or update your Pattadhar Passbook (PPB) for agricultural land in Telangana. JaaGa handles electronic passbook issuance and corrections via the land records system.",
+    "keywords": "pattadhar passbook telangana, electronic ppb, agricultural land passbook, dharani passbook, ppb correction",
+    "h1": "Pattadhar Passbook (PPB) in Telangana",
+    "tagline": "The digital title document for your agricultural land. We handle issuance, corrections and reprints of your electronic Pattadhar Passbook through the Telangana land records system.",
+    "shortDesc": "Electronic agricultural land passbook",
+    "waMessage": "Hi JaaGa, I need help with a Pattadhar Passbook in Telangana.",
+    "keyTakeaways": [
+      "The Pattadhar Passbook (PPB) is the official ownership document for agricultural land in Telangana.",
+      "It records the owner, survey numbers, extent and nature of the land, and is now issued electronically.",
+      "You need it for land sales, crop loans, government schemes and any agricultural land transaction.",
+      "Errors in name, extent or survey number in the PPB block sales and loans until corrected.",
+      "We handle issuance, corrections and reprints remotely through the land records system."
+    ],
+    "intro": [
+      "For agricultural land in Telangana, the Pattadhar Passbook is the single most important ownership document. Banks, buyers and government departments all rely on it to confirm who owns the land and how much.",
+      "JaaGa helps you obtain a new electronic PPB, correct errors in an existing one, or get a reprint — without repeated trips to the MRO or tahsildar office."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a PPB",
+      "paragraphs": [
+        "Before selling agricultural land, applying for a crop loan, or enrolling in a government scheme like Rythu Bandhu.",
+        "When the passbook has an error in the owner name, extent or survey number, or when it has been lost and needs a reprint."
+      ]
+    },
+    "process": {
+      "heading": "How We Handle Your PPB",
+      "steps": [
+        {
+          "name": "Verify Land Records",
+          "desc": "We check the current land record, survey number and ownership status for your parcel."
+        },
+        {
+          "name": "Prepare Application",
+          "desc": "We prepare the PPB issuance or correction application with your ownership and identity documents."
+        },
+        {
+          "name": "File & Coordinate",
+          "desc": "We file with the tahsildar / land records office and coordinate the verification."
+        },
+        {
+          "name": "Passbook Delivered",
+          "desc": "You receive the electronic Pattadhar Passbook, or the corrected/reprinted copy."
+        }
+      ]
+    },
+    "documents": [
+      "Existing passbook or link document (if any)",
+      "Survey number and village details",
+      "Owner identity and address proof",
+      "Recent Adangal / Pahani extract"
+    ],
+    "challenges": [
+      {
+        "title": "Name / extent mismatch",
+        "desc": "Records often carry spelling or extent errors that stall sales. We identify and file the correction."
+      },
+      {
+        "title": "Inheritance not updated",
+        "desc": "When land passed to heirs but the PPB wasn't updated, we handle the succession update."
+      },
+      {
+        "title": "Survey sub-division issues",
+        "desc": "Sub-divided survey numbers can be mis-recorded. We reconcile them with the records."
+      }
+    ],
+    "whyMatters": "Without a correct Pattadhar Passbook, agricultural land is effectively frozen — you can't sell it, raise a loan against it, or claim scheme benefits. Getting the PPB right is the foundation of every agricultural land transaction in Telangana.",
+    "faqs": [
+      {
+        "q": "What is a Pattadhar Passbook?",
+        "a": "It is the official ownership document for agricultural land in Telangana, recording the owner, survey numbers, extent and nature of the land — now issued in electronic form."
+      },
+      {
+        "q": "How do I correct an error in my PPB?",
+        "a": "A correction application is filed with the tahsildar/land records office with supporting documents. We prepare, file and follow it up for you."
+      },
+      {
+        "q": "Can I get a PPB if I inherited the land?",
+        "a": "Yes — the passbook is updated to the heirs with legal-heir proof, which we help assemble."
+      },
+      {
+        "q": "Is the passbook the same as title?",
+        "a": "It is strong evidence of ownership for agricultural land, but a full title check (deeds, EC, prohibited-land) is still recommended before buying."
+      },
+      {
+        "q": "Can this be done remotely?",
+        "a": "Yes. Share your land and identity details on WhatsApp and we handle filing and follow-up."
+      }
+    ],
+    "whatWeNeed": [
+      "Survey number and village",
+      "Owner identity proof",
+      "Existing passbook / link document"
+    ],
+    "whatYouGet": [
+      "Electronic Pattadhar Passbook",
+      "Corrected or reprinted copy where needed",
+      "Guidance on next steps for sale or loan"
+    ],
+    "references": [
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "adangal-pahani-hyderabad",
+    "service": "Adangal / Pahani (ROR 1B)",
+    "category": "Land Records (Telangana)",
+    "title": "Adangal Pahani ROR 1B Telangana | Land Record Extract",
+    "metaDescription": "Get your Adangal / Pahani and ROR 1B extract for agricultural land in Telangana. JaaGa retrieves crop, possession and ownership records for sales, loans and disputes.",
+    "keywords": "adangal pahani telangana, ror 1b extract, pahani record, land record extract, adangal online",
+    "h1": "Adangal / Pahani (ROR 1B) in Telangana",
+    "tagline": "The record that shows who possesses and cultivates agricultural land, and what's grown on it. We retrieve your Adangal / Pahani and 1B extract for due diligence, loans and disputes.",
+    "shortDesc": "Crop, possession & ownership record",
+    "waMessage": "Hi JaaGa, I need an Adangal / Pahani (ROR 1B) extract in Telangana.",
+    "keyTakeaways": [
+      "Adangal (also called Pahani) is the record of rights for agricultural land — possession, cultivation and crop details.",
+      "The 1B extract shows the ownership details tied to the survey number.",
+      "Together they are essential for crop loans, land sales, and settling possession disputes.",
+      "They complement the Pattadhar Passbook and the Encumbrance Certificate in agricultural due diligence.",
+      "We retrieve current and historical extracts remotely."
+    ],
+    "intro": [
+      "The Adangal / Pahani and the 1B are the working records of agricultural land in Telangana. They record who is in possession, what crop is grown, and who the recorded owner is — the details banks and buyers check.",
+      "JaaGa retrieves your Adangal / Pahani and 1B extract, current or historical, so you can prove possession, apply for a loan, or verify land before buying."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need These Records",
+      "paragraphs": [
+        "Before buying agricultural land, to confirm possession and cultivation match the seller's claims.",
+        "For crop loans, government schemes, and to establish a possession history in a boundary or ownership dispute."
+      ]
+    },
+    "process": {
+      "heading": "How We Retrieve Them",
+      "steps": [
+        {
+          "name": "Identify the Parcel",
+          "desc": "We take the survey number, village and owner name for the land."
+        },
+        {
+          "name": "Pull the Extract",
+          "desc": "We retrieve the current Adangal / Pahani and the 1B ownership extract."
+        },
+        {
+          "name": "Historical Records",
+          "desc": "Where needed, we obtain historical extracts to establish a possession trail."
+        },
+        {
+          "name": "Delivery",
+          "desc": "You receive the extracts digitally with a plain-language read of what they show."
+        }
+      ]
+    },
+    "documents": [
+      "Survey number and sub-division",
+      "Village / mandal / district",
+      "Owner name",
+      "Period required (current or historical)"
+    ],
+    "challenges": [
+      {
+        "title": "Possession vs ownership gap",
+        "desc": "The cultivator in the Adangal may differ from the recorded owner. We flag this crucial mismatch."
+      },
+      {
+        "title": "Old handwritten records",
+        "desc": "Historical pahani may be handwritten and hard to read. We retrieve and interpret them."
+      },
+      {
+        "title": "Survey number changes",
+        "desc": "Sub-divisions and re-surveys complicate lookups. We track the correct current number."
+      }
+    ],
+    "whyMatters": "Buying agricultural land where the person in possession isn't the recorded owner is a classic Telangana land trap. The Adangal / Pahani and 1B are how you catch that mismatch before you pay — and how you prove your own possession later.",
+    "faqs": [
+      {
+        "q": "What is the difference between Adangal and 1B?",
+        "a": "Adangal / Pahani records possession, cultivation and crop details; the 1B extract shows the recorded ownership. Both are read together for agricultural land."
+      },
+      {
+        "q": "Do I need these to buy agricultural land?",
+        "a": "Yes — they confirm possession and cultivation, which should match the seller's claims and the passbook before you proceed."
+      },
+      {
+        "q": "Can you get historical Pahani?",
+        "a": "Yes. Historical extracts help establish a long possession trail, useful in disputes and succession."
+      },
+      {
+        "q": "Is this the same as an EC?",
+        "a": "No. An EC lists registered transactions; the Adangal/1B show possession and revenue ownership of agricultural land. Both matter."
+      },
+      {
+        "q": "Can NRIs order these remotely?",
+        "a": "Yes, entirely over WhatsApp — we retrieve and deliver the extracts digitally."
+      }
+    ],
+    "whatWeNeed": [
+      "Survey number and village",
+      "Owner name",
+      "Period required"
+    ],
+    "whatYouGet": [
+      "Current Adangal / Pahani extract",
+      "1B ownership extract",
+      "Historical records where needed"
+    ],
+    "references": [
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "land-details-search-hyderabad",
+    "service": "Land Details Search",
+    "category": "Land Records (Telangana)",
+    "title": "Land Details Search Telangana | Survey Number Ownership",
+    "metaDescription": "Search land details by survey number in Telangana — ownership, extent, classification and status. JaaGa runs a survey-number search before you buy or invest.",
+    "keywords": "land details search telangana, survey number search, land ownership search, dharani land search",
+    "h1": "Land Details Search (Survey Number) in Telangana",
+    "tagline": "Know exactly what a survey number holds — who owns it, how much, and its classification — before you engage with a seller.",
+    "shortDesc": "Survey-number ownership & status search",
+    "waMessage": "Hi JaaGa, I need a land details search by survey number in Telangana.",
+    "keyTakeaways": [
+      "A land details search returns the recorded owner, extent, land classification and status for a survey number.",
+      "It is the fastest first check before engaging a seller or paying any advance.",
+      "It reveals whether land is patta, assigned, government or prohibited before you go deeper.",
+      "Pairs with the EC, 1B and prohibited-land (22A) checks for full due diligence.",
+      "Done remotely with just the survey number and village."
+    ],
+    "intro": [
+      "Before any negotiation, you should know what the land records actually say about a parcel. A land details search by survey number gives you the recorded owner, extent and classification in one quick look.",
+      "JaaGa runs this search so you can confirm a seller's claims and decide whether the parcel is worth deeper due diligence."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need This Search",
+      "paragraphs": [
+        "As the very first check when you shortlist a plot or agricultural parcel.",
+        "Whenever a seller's claimed ownership or extent needs quick, independent confirmation."
+      ]
+    },
+    "process": {
+      "heading": "How We Search",
+      "steps": [
+        {
+          "name": "Take the Survey Number",
+          "desc": "We collect the survey number, sub-division and village/mandal."
+        },
+        {
+          "name": "Query the Records",
+          "desc": "We look up the parcel in the Telangana land records system."
+        },
+        {
+          "name": "Confirm Classification",
+          "desc": "We confirm owner, extent and whether the land is patta, assigned, government or prohibited."
+        },
+        {
+          "name": "Summary Report",
+          "desc": "You receive a concise report of what the records show for that survey number."
+        }
+      ]
+    },
+    "documents": [
+      "Survey number and sub-division",
+      "Village / mandal / district",
+      "Claimed owner name (if known)"
+    ],
+    "challenges": [
+      {
+        "title": "Wrong or partial survey number",
+        "desc": "A small error returns the wrong parcel. We confirm the exact number and sub-division."
+      },
+      {
+        "title": "Extent mismatches",
+        "desc": "Recorded extent can differ from what a seller claims. We surface the gap immediately."
+      },
+      {
+        "title": "Classification surprises",
+        "desc": "Land marketed as patta may be assigned or government. The search reveals it early."
+      }
+    ],
+    "whyMatters": "A two-minute land details search can save you from weeks of negotiation over a parcel that turns out to be government, assigned or owned by someone other than your seller. It's the cheapest, fastest guardrail in land buying.",
+    "faqs": [
+      {
+        "q": "What does a land details search show?",
+        "a": "The recorded owner, extent, land classification and status for a given survey number in the Telangana land records."
+      },
+      {
+        "q": "Is this enough to buy safely?",
+        "a": "It's the first step. For a purchase you also need the EC, 1B/Adangal, prohibited-land (22A) and a title verification."
+      },
+      {
+        "q": "What if the owner shown isn't my seller?",
+        "a": "That's a red flag to resolve before proceeding — we help you understand the gap and next checks."
+      },
+      {
+        "q": "Can you search with just a survey number?",
+        "a": "Yes, with the survey number and village. Any additional details improve accuracy."
+      },
+      {
+        "q": "Can this be done remotely?",
+        "a": "Yes, entirely over WhatsApp."
+      }
+    ],
+    "whatWeNeed": [
+      "Survey number and sub-division",
+      "Village / mandal",
+      "Claimed owner name if known"
+    ],
+    "whatYouGet": [
+      "Recorded owner and extent",
+      "Land classification and status",
+      "Clear go / dig-deeper guidance"
+    ],
+    "references": [
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "digital-land-survey-hyderabad",
+    "service": "Digital Land Survey",
+    "category": "Land Records (Telangana)",
+    "title": "Digital Land Survey Hyderabad | GPS Boundary Demarcation",
+    "metaDescription": "Get a GPS-aided digital land survey in Hyderabad to demarcate exact plot boundaries and detect encroachment. JaaGa arranges precise boundary surveys for owners and buyers.",
+    "keywords": "digital land survey hyderabad, gps land survey, boundary demarcation, plot survey telangana, encroachment survey",
+    "h1": "Digital Land Survey in Hyderabad",
+    "tagline": "Know your exact boundaries. A GPS-aided survey pins your plot's real corners, detects encroachment, and settles boundary doubts before you buy or build.",
+    "shortDesc": "GPS-aided boundary demarcation",
+    "waMessage": "Hi JaaGa, I need a digital land survey in Hyderabad.",
+    "keyTakeaways": [
+      "A digital land survey uses GPS-aided instruments to demarcate the exact boundaries of a plot or parcel.",
+      "It detects encroachment, boundary encroachment and mismatches between records and ground reality.",
+      "Essential before buying open land, before construction, and in boundary disputes.",
+      "The survey ties the ground position to the recorded survey number and extent.",
+      "Especially valuable for absentee and NRI owners who can't inspect the land themselves."
+    ],
+    "intro": [
+      "Land documents describe a parcel, but only a survey pins it to the ground. A digital, GPS-aided survey demarcates the real corners of your plot and shows whether the ground matches the records.",
+      "JaaGa arranges precise boundary surveys so you know exactly what you're buying, catch encroachment early, and settle boundary doubts with data."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a Survey",
+      "paragraphs": [
+        "Before buying open land or a plot, to confirm the boundaries and extent match the documents.",
+        "Before construction, when fencing a plot, or whenever a neighbour's boundary is in question."
+      ]
+    },
+    "process": {
+      "heading": "How the Survey Works",
+      "steps": [
+        {
+          "name": "Records Review",
+          "desc": "We pull the survey number, extent and any village/FMB map for the parcel."
+        },
+        {
+          "name": "Ground Survey",
+          "desc": "A GPS-aided survey demarcates the plot's actual corners and boundaries on the ground."
+        },
+        {
+          "name": "Compare to Records",
+          "desc": "We compare the ground position and extent against the recorded details."
+        },
+        {
+          "name": "Survey Report",
+          "desc": "You receive a boundary report flagging any encroachment or mismatch."
+        }
+      ]
+    },
+    "documents": [
+      "Survey number and sub-division",
+      "Existing plot document / sale deed",
+      "Village / FMB map if available",
+      "Location and access details"
+    ],
+    "challenges": [
+      {
+        "title": "Ground doesn't match paper",
+        "desc": "Extent on the ground often differs from the deed. The survey quantifies the gap."
+      },
+      {
+        "title": "Silent encroachment",
+        "desc": "Neighbours or roads may have crept in. GPS demarcation makes it visible."
+      },
+      {
+        "title": "Missing boundary stones",
+        "desc": "Old markers get lost. We re-establish corners from the records."
+      }
+    ],
+    "whyMatters": "Buyers regularly discover, after purchase, that the plot on the ground is smaller than the paper or that a neighbour has encroached. A digital survey turns that expensive surprise into a fact you knew before paying.",
+    "faqs": [
+      {
+        "q": "What is a digital land survey?",
+        "a": "A GPS-aided survey that demarcates the exact boundaries and extent of a plot on the ground and compares them to the land records."
+      },
+      {
+        "q": "Can it detect encroachment?",
+        "a": "Yes — that's a primary use. It shows where the real boundary sits versus who has crept over it."
+      },
+      {
+        "q": "Do I need this to buy a plot?",
+        "a": "It's strongly recommended for open land and plots, alongside document due diligence, so ground and paper agree."
+      },
+      {
+        "q": "Is this useful for NRIs?",
+        "a": "Very — it's the on-ground check absentee owners can't do themselves."
+      },
+      {
+        "q": "Will you compare it to the records?",
+        "a": "Yes. The report compares the surveyed boundaries to the recorded survey number and extent."
+      }
+    ],
+    "whatWeNeed": [
+      "Survey number and plot document",
+      "Village / FMB map if available",
+      "Location and access details"
+    ],
+    "whatYouGet": [
+      "GPS-demarcated boundaries",
+      "Encroachment / mismatch report",
+      "Comparison against the land records"
+    ],
+    "references": [
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "ptin-registration-hyderabad",
+    "service": "PTIN Registration",
+    "category": "Documentation & Utility",
+    "title": "PTIN Registration Hyderabad | New GHMC Property Tax ID",
+    "metaDescription": "Register a new PTIN (Property Tax Identification Number) with GHMC in Hyderabad for a newly built or newly bought property. JaaGa handles the assessment and PTIN creation.",
+    "keywords": "ptin registration hyderabad, new property tax id, ghmc ptin creation, property tax assessment hyderabad",
+    "h1": "PTIN Registration in Hyderabad",
+    "tagline": "Every built property needs a PTIN to be assessed for property tax. We create your new PTIN with GHMC so your property is on record and tax-compliant from day one.",
+    "shortDesc": "New GHMC property tax identification",
+    "waMessage": "Hi JaaGa, I need a new PTIN registration in Hyderabad.",
+    "keyTakeaways": [
+      "A PTIN (Property Tax Identification Number) is GHMC's unique ID for assessing property tax on a built property.",
+      "New constructions and newly bought properties without an assessment need a fresh PTIN.",
+      "Being assessed puts your property on the municipal record — needed for loans, sales and utility connections.",
+      "The assessment is based on the built-up area, usage and location.",
+      "We prepare, file and follow up the PTIN creation with GHMC."
+    ],
+    "intro": [
+      "When you build or buy a property that isn't yet on GHMC's tax rolls, it needs to be assessed and issued a PTIN. Without it, you can't pay property tax in your name — and the property isn't formally recognised on the municipal record.",
+      "JaaGa handles the full PTIN registration: preparing the assessment application, filing with GHMC, and following it through to your new PTIN."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a New PTIN",
+      "paragraphs": [
+        "After constructing a new building or buying a property that has never been assessed for property tax.",
+        "When a property was assessed only as vacant land and now has a building that must be assessed."
+      ]
+    },
+    "process": {
+      "heading": "How We Register Your PTIN",
+      "steps": [
+        {
+          "name": "Assess Eligibility",
+          "desc": "We confirm the property details, built-up area and usage for the assessment."
+        },
+        {
+          "name": "Prepare Application",
+          "desc": "We prepare the GHMC self-assessment / new-assessment application with your documents."
+        },
+        {
+          "name": "File & Coordinate",
+          "desc": "We file with GHMC and coordinate any inspection or verification."
+        },
+        {
+          "name": "PTIN Issued",
+          "desc": "You receive your new PTIN and guidance on paying the assessed tax."
+        }
+      ]
+    },
+    "documents": [
+      "Registered sale deed / ownership proof",
+      "Building plan / occupancy details",
+      "Built-up area and usage",
+      "Owner identity proof",
+      "Any existing VLT / vacant-land assessment reference"
+    ],
+    "challenges": [
+      {
+        "title": "Unapproved construction",
+        "desc": "Deviations complicate assessment. We advise how to proceed and what's needed."
+      },
+      {
+        "title": "Wrong built-up area",
+        "desc": "Over- or under-stated area changes the tax. We ensure it's assessed correctly."
+      },
+      {
+        "title": "Vacant-to-built transition",
+        "desc": "Land assessed as vacant needs re-assessment once built. We handle the switch."
+      }
+    ],
+    "whyMatters": "Until a property has a PTIN, it isn't on GHMC's rolls in your name — which blocks tax payment, complicates loans and sales, and can hold up utility connections. Registering the PTIN puts your property properly on record.",
+    "faqs": [
+      {
+        "q": "What is a PTIN?",
+        "a": "The Property Tax Identification Number GHMC assigns to a property to assess and record its property tax."
+      },
+      {
+        "q": "When do I need a new PTIN?",
+        "a": "For a newly built property, or one never assessed for property tax, or when vacant land becomes a built property."
+      },
+      {
+        "q": "How is the tax assessed?",
+        "a": "Based on built-up area, usage (residential/commercial) and location, per GHMC's assessment rules."
+      },
+      {
+        "q": "Is PTIN the same as VLT?",
+        "a": "Related but distinct: PTIN is for built property; VLT is Vacant Land Tax for open plots. We can help with both."
+      },
+      {
+        "q": "Can this be done remotely?",
+        "a": "Yes, with your documents shared on WhatsApp; a site inspection by GHMC may apply."
+      }
+    ],
+    "whatWeNeed": [
+      "Ownership proof and building details",
+      "Built-up area and usage",
+      "Owner identity proof"
+    ],
+    "whatYouGet": [
+      "New PTIN created with GHMC",
+      "Correct property tax assessment",
+      "Guidance on paying the tax"
+    ],
+    "references": [
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "water-bill-name-change-hyderabad",
+    "service": "Water Bill Name Change",
+    "category": "Documentation & Utility",
+    "title": "Water Bill Name Change Hyderabad | HMWSSB Transfer",
+    "metaDescription": "Transfer your water connection name in Hyderabad after buying or inheriting property. JaaGa handles the HMWSSB name change / transfer end to end.",
+    "keywords": "water bill name change hyderabad, hmwssb name transfer, water connection transfer, water board name change",
+    "h1": "Water Connection Name Change in Hyderabad",
+    "tagline": "After you buy or inherit a property, the water connection should be in your name. We handle the HMWSSB name transfer so billing and occupancy proof are yours.",
+    "shortDesc": "HMWSSB connection name transfer",
+    "waMessage": "Hi JaaGa, I need a water bill name change (HMWSSB) in Hyderabad.",
+    "keyTakeaways": [
+      "The HMWSSB water connection should be transferred to the new owner after a purchase or inheritance.",
+      "A water bill in your name is a commonly accepted occupancy and address proof.",
+      "The transfer uses ownership and identity documents with the water board.",
+      "Pending dues on the connection must usually be cleared before transfer.",
+      "We prepare, file and follow up the name change end to end."
+    ],
+    "intro": [
+      "Like the electricity connection, the HMWSSB water connection should move into the new owner's name after a property changes hands. It keeps billing correct and gives you a clean utility record in your name.",
+      "JaaGa handles the HMWSSB name change — application, documents and follow-up — so the connection is transferred cleanly."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a Name Change",
+      "paragraphs": [
+        "After buying a property where the water connection is still in the seller's name.",
+        "After inheritance, or when you need a utility bill in your name as proof of occupancy."
+      ]
+    },
+    "process": {
+      "heading": "How the Transfer Works",
+      "steps": [
+        {
+          "name": "Collect Documents",
+          "desc": "We gather ownership proof, the latest water bill and identity documents."
+        },
+        {
+          "name": "Prepare Application",
+          "desc": "We prepare the HMWSSB name-change / transfer application."
+        },
+        {
+          "name": "File & Follow Up",
+          "desc": "We submit and follow up with the water board section office."
+        },
+        {
+          "name": "Name Updated",
+          "desc": "The connection is transferred and future bills reflect your name."
+        }
+      ]
+    },
+    "documents": [
+      "Registered sale deed / ownership proof",
+      "Latest water bill",
+      "Identity and address proof",
+      "Connection / CAN number",
+      "Legal-heir proof (for inheritance)"
+    ],
+    "challenges": [
+      {
+        "title": "Pending water dues",
+        "desc": "Outstanding bills block transfer. We identify and help clear them first."
+      },
+      {
+        "title": "Missing connection number",
+        "desc": "We trace the CAN/connection number from the existing bill."
+      },
+      {
+        "title": "Inheritance transfers",
+        "desc": "Transfers on inheritance need heir proof, which we assemble."
+      }
+    ],
+    "whyMatters": "Leaving the water connection in the previous owner's name means the bills and occupancy proof still point elsewhere. Transferring it gives you a clean, in-your-name utility record — useful well beyond just the bill.",
+    "faqs": [
+      {
+        "q": "Why change the water connection name?",
+        "a": "So billing and the occupancy/address proof it provides are in your name after you become the owner."
+      },
+      {
+        "q": "What if there are unpaid water dues?",
+        "a": "They usually must be cleared before transfer. We identify them and guide clearing them."
+      },
+      {
+        "q": "Can it be done for inherited property?",
+        "a": "Yes, with legal-heir proof, which we help assemble."
+      },
+      {
+        "q": "Do I need to be in Hyderabad?",
+        "a": "No — share documents on WhatsApp and we handle filing and follow-up."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "It depends on the section office and any pending dues; we follow up until done."
+      }
+    ],
+    "whatWeNeed": [
+      "Ownership proof and latest bill",
+      "Identity/address proof",
+      "Connection / CAN number"
+    ],
+    "whatYouGet": [
+      "Filed HMWSSB name-change application",
+      "Follow-up until completion",
+      "Connection updated to your name"
+    ],
+    "references": [
+      {
+        "label": "HMWSSB (Hyderabad Water Board)",
+        "url": "https://www.hyderabadwater.gov.in/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "rectification-deed-hyderabad",
+    "service": "Rectification Deed",
+    "category": "Legal & Documentation",
+    "title": "Rectification Deed Hyderabad | Fix Errors in Registered Deeds",
+    "metaDescription": "Fix errors in a registered property deed in Hyderabad with a rectification deed. JaaGa drafts and registers corrections to names, extent, boundaries and schedules.",
+    "keywords": "rectification deed hyderabad, correct registered deed, deed correction, fix error sale deed telangana",
+    "h1": "Rectification Deed in Hyderabad",
+    "tagline": "A wrong name, extent or boundary in a registered deed can block your next sale or loan. We draft and register a rectification deed to correct it properly.",
+    "shortDesc": "Fix errors in registered deeds",
+    "waMessage": "Hi JaaGa, I need a rectification deed in Hyderabad.",
+    "keyTakeaways": [
+      "A rectification deed corrects genuine errors in an already-registered deed — names, extent, boundaries, schedule.",
+      "It must be executed by the same parties and registered to have legal effect.",
+      "Uncorrected errors surface later and block sales, loans and mutation.",
+      "Only factual/clerical errors are rectified — it can't change the substance of the transaction.",
+      "Our advocates draft it correctly and handle registration."
+    ],
+    "intro": [
+      "Registered deeds sometimes carry errors — a misspelt name, a wrong survey number, an incorrect extent or boundary. Left uncorrected, these small mistakes resurface at the worst time: when you try to sell, mortgage or mutate the property.",
+      "JaaGa's advocates draft a proper rectification deed and register it, so the record matches reality and your title is clean."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a Rectification Deed",
+      "paragraphs": [
+        "When a registered deed has a factual or clerical error in the names, extent, survey number, boundaries or schedule.",
+        "Before a sale, loan or mutation that would otherwise be blocked by the error."
+      ]
+    },
+    "process": {
+      "heading": "How We Handle It",
+      "steps": [
+        {
+          "name": "Identify the Error",
+          "desc": "We review the registered deed and the correct facts to define exactly what needs rectifying."
+        },
+        {
+          "name": "Draft the Deed",
+          "desc": "Our advocates draft the rectification deed referencing the original and stating the correction."
+        },
+        {
+          "name": "Party Execution",
+          "desc": "We coordinate execution by the same parties to the original deed."
+        },
+        {
+          "name": "Registration",
+          "desc": "We register the rectification deed and deliver the corrected, endorsed record."
+        }
+      ]
+    },
+    "documents": [
+      "Original registered deed",
+      "Proof of the correct facts (ID, records)",
+      "Details of both parties",
+      "Survey/plot details as they should read"
+    ],
+    "challenges": [
+      {
+        "title": "Party unavailable",
+        "desc": "Rectification needs the original parties. We advise options when a party is hard to reach."
+      },
+      {
+        "title": "Error vs substance",
+        "desc": "Some 'corrections' actually change the deal and need a fresh deed. We tell you which applies."
+      },
+      {
+        "title": "Downstream records",
+        "desc": "After rectification, mutation and other records may need updating too — we flag the chain."
+      }
+    ],
+    "whyMatters": "An error in a registered deed doesn't fix itself — it waits until you try to transact and then stops you cold. A rectification deed resolves it on the record, restoring a clean, transactable title.",
+    "faqs": [
+      {
+        "q": "What is a rectification deed?",
+        "a": "A registered deed that corrects genuine factual or clerical errors in an earlier registered deed, such as names, extent or boundaries."
+      },
+      {
+        "q": "Who has to sign it?",
+        "a": "Generally the same parties to the original deed, since both must agree to the correction."
+      },
+      {
+        "q": "Can it change the terms of the sale?",
+        "a": "No — it only corrects errors. Changing the substance requires a fresh deed, which we can advise on."
+      },
+      {
+        "q": "Why not just ignore a small error?",
+        "a": "Small errors block future sales, loans and mutation, and can raise doubts about title. Fixing them early is cheaper."
+      },
+      {
+        "q": "Do you handle registration?",
+        "a": "Yes — drafting and registration are handled end to end."
+      }
+    ],
+    "whatWeNeed": [
+      "Original registered deed",
+      "Proof of the correct facts",
+      "Party details"
+    ],
+    "whatYouGet": [
+      "Advocate-drafted rectification deed",
+      "Registered, endorsed correction",
+      "Guidance on downstream record updates"
+    ],
+    "references": [
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "mortgage-deed-hyderabad",
+    "service": "Mortgage Deed",
+    "category": "Legal & Documentation",
+    "title": "Mortgage Deed Hyderabad | Drafting & Registration",
+    "metaDescription": "Get a registered mortgage deed drafted and registered in Hyderabad. JaaGa handles mortgage deed drafting, stamp duty and SRO registration for loans against property.",
+    "keywords": "mortgage deed hyderabad, registered mortgage, mortgage deed registration, loan against property deed telangana",
+    "h1": "Mortgage Deed in Hyderabad",
+    "tagline": "A properly drafted, registered mortgage deed protects both borrower and lender. We handle drafting, stamp duty and SRO registration end to end.",
+    "shortDesc": "Mortgage deed drafting & registration",
+    "waMessage": "Hi JaaGa, I need a mortgage deed drafted/registered in Hyderabad.",
+    "keyTakeaways": [
+      "A mortgage deed is the legal document that creates a mortgage over a property as security for a loan.",
+      "A registered mortgage deed gives the clearest, strongest security and public record of the charge.",
+      "It requires correct drafting, stamp duty and registration at the Sub-Registrar Office.",
+      "Errors in the deed or valuation cause rejection and future disputes.",
+      "We handle drafting, duty and registration for borrowers and lenders."
+    ],
+    "intro": [
+      "When property is offered as security for a loan, a mortgage deed sets out the terms and creates the charge. A registered mortgage deed is the strongest form — it puts the security on the public record and protects both sides.",
+      "JaaGa drafts the mortgage deed, computes stamp duty, and handles registration at the SRO so the security is created cleanly and correctly."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need a Mortgage Deed",
+      "paragraphs": [
+        "When taking or granting a loan secured against a property and you want a properly registered mortgage.",
+        "When a lender requires a registered mortgage rather than a simple deposit of title deeds."
+      ]
+    },
+    "process": {
+      "heading": "How We Handle It",
+      "steps": [
+        {
+          "name": "Draft the Deed",
+          "desc": "Our advocates draft the mortgage deed with the correct parties, property schedule and terms."
+        },
+        {
+          "name": "Stamp Duty & Fees",
+          "desc": "We compute the applicable stamp duty and registration fee and arrange payment."
+        },
+        {
+          "name": "Slot Booking",
+          "desc": "We book the Sub-Registrar appointment for registration."
+        },
+        {
+          "name": "Registration",
+          "desc": "We coordinate registration and deliver the registered mortgage deed."
+        }
+      ]
+    },
+    "documents": [
+      "Property title deed",
+      "Loan / sanction details",
+      "Identity proof of parties",
+      "Property schedule and value",
+      "Prior EC (we can retrieve)"
+    ],
+    "challenges": [
+      {
+        "title": "Existing charges",
+        "desc": "A prior mortgage changes priority. We check the EC/CERSAI first."
+      },
+      {
+        "title": "Valuation & duty",
+        "desc": "Wrong valuation invites penalties. We compute duty correctly."
+      },
+      {
+        "title": "Deed terms",
+        "desc": "Vague terms cause disputes. Our advocates draft precise clauses."
+      }
+    ],
+    "whyMatters": "An improperly created mortgage can be challenged, mis-prioritised, or fail to give the security a lender expects. A correctly drafted, registered mortgage deed protects the loan and keeps the record clean for everyone.",
+    "faqs": [
+      {
+        "q": "What is a mortgage deed?",
+        "a": "The legal document creating a mortgage over a property as security for a loan, setting out the terms and the charge."
+      },
+      {
+        "q": "Why register it?",
+        "a": "A registered mortgage deed gives the strongest, publicly-recorded security, clearer than an unregistered deposit of title deeds."
+      },
+      {
+        "q": "Do you check for existing mortgages?",
+        "a": "Yes — we review the EC and CERSAI so priority and existing charges are known before registration."
+      },
+      {
+        "q": "Who pays the stamp duty?",
+        "a": "Usually as agreed between the parties; we compute the correct amount either way."
+      },
+      {
+        "q": "Can NRIs execute one?",
+        "a": "Yes, in person or via a valid Power of Attorney, which we guide."
+      }
+    ],
+    "whatWeNeed": [
+      "Property title deed",
+      "Loan / sanction details",
+      "Party identity proof"
+    ],
+    "whatYouGet": [
+      "Advocate-drafted mortgage deed",
+      "Correct stamp duty handling",
+      "Registered mortgage deed delivered"
+    ],
+    "references": [
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "CERSAI",
+        "url": "https://www.cersai.org.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "physical-verification-hyderabad",
+    "service": "Physical Verification",
+    "category": "Verification & Due Diligence",
+    "title": "Property Physical Verification Hyderabad | On-Site Inspection",
+    "metaDescription": "Get an on-site physical verification of a Hyderabad property before you buy or for absentee owners. JaaGa inspects the property, occupancy, boundaries and condition.",
+    "keywords": "physical verification property hyderabad, on-site inspection, property inspection nri, site visit verification",
+    "h1": "Property Physical Verification in Hyderabad",
+    "tagline": "Documents can't tell you who's living there or whether the plot is encroached. We inspect the property on the ground and report what's really there.",
+    "shortDesc": "On-site property inspection",
+    "waMessage": "Hi JaaGa, I need a physical verification of a property in Hyderabad.",
+    "keyTakeaways": [
+      "Physical verification is an on-site inspection of a property's real condition, occupancy and boundaries.",
+      "It reveals encroachment, unauthorised occupants and construction that documents never show.",
+      "Essential before buying, and for NRIs and absentee owners who can't visit themselves.",
+      "Pairs with document due diligence to confirm paper matches the ground.",
+      "We inspect and report with photos and a clear summary."
+    ],
+    "intro": [
+      "A property can have perfect documents and still be occupied by a tenant who won't leave, encroached by a neighbour, or in a different condition than claimed. Only a site visit reveals this.",
+      "JaaGa carries out a physical verification — inspecting the property's condition, occupancy and boundaries on the ground — and reports back with photos so you know exactly what you're dealing with."
+    ],
+    "whenNeeded": {
+      "heading": "When You Need Physical Verification",
+      "paragraphs": [
+        "Before buying any property, to confirm its condition, occupancy and boundaries match the seller's claims.",
+        "For NRIs and absentee owners who need eyes on their property but can't visit in person."
+      ]
+    },
+    "process": {
+      "heading": "How We Verify On-Site",
+      "steps": [
+        {
+          "name": "Confirm the Property",
+          "desc": "We take the address, survey/plot number and what you want checked."
+        },
+        {
+          "name": "Site Inspection",
+          "desc": "Our team visits and inspects condition, occupancy, access and boundaries."
+        },
+        {
+          "name": "Cross-Check Documents",
+          "desc": "We compare what's on the ground against the documents and records."
+        },
+        {
+          "name": "Report with Photos",
+          "desc": "You receive a report with photos and a plain-language summary of findings."
+        }
+      ]
+    },
+    "documents": [
+      "Property address and survey/plot number",
+      "Sale deed / plot document (if available)",
+      "Specific concerns to check",
+      "Owner / seller contact for access"
+    ],
+    "challenges": [
+      {
+        "title": "Unauthorised occupants",
+        "desc": "Tenants or occupants who complicate a sale often aren't disclosed. We find them."
+      },
+      {
+        "title": "Encroachment on plots",
+        "desc": "Open plots get encroached quietly. A site visit catches it."
+      },
+      {
+        "title": "Condition vs claims",
+        "desc": "The property's real state may differ from photos. We report the truth."
+      }
+    ],
+    "whyMatters": "The most avoidable buying mistakes come from never seeing the property — paying for land that's encroached, or a flat with an occupant who won't leave. A physical verification is the ground-truth check that documents can't give.",
+    "faqs": [
+      {
+        "q": "What does physical verification cover?",
+        "a": "On-site inspection of the property's condition, occupancy, access and boundaries, cross-checked against the documents."
+      },
+      {
+        "q": "Is it useful if the documents are clean?",
+        "a": "Yes — clean documents don't reveal encroachment, occupants or condition. The site visit does."
+      },
+      {
+        "q": "Do I get photos?",
+        "a": "Yes, the report includes photos and a clear summary of what was found."
+      },
+      {
+        "q": "Is this designed for NRIs?",
+        "a": "Very much — it's the on-ground check absentee owners can't do themselves."
+      },
+      {
+        "q": "Can you check a specific concern?",
+        "a": "Yes — tell us what to focus on (occupants, boundary, construction) and we report on it."
+      }
+    ],
+    "whatWeNeed": [
+      "Property address and survey/plot number",
+      "Specific concerns to check",
+      "Contact for site access"
+    ],
+    "whatYouGet": [
+      "On-site inspection with photos",
+      "Occupancy, boundary & condition findings",
+      "Comparison against your documents"
+    ],
+    "references": [
+      {
+        "label": "Telangana land records (Dharani)",
+        "url": "https://dharani.telangana.gov.in/"
+      },
+      {
+        "label": "GHMC",
+        "url": "https://www.ghmc.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "loan-against-property-hyderabad",
+    "service": "Loan Against Property",
+    "category": "Loans & NRI Services",
+    "title": "Loan Against Property Hyderabad | LAP Documentation Help",
+    "metaDescription": "Get help raising a loan against property (LAP) in Hyderabad. JaaGa handles the property documentation, valuation and title work lenders require for LAP.",
+    "keywords": "loan against property hyderabad, lap documentation, property loan help, mortgage loan telangana",
+    "h1": "Loan Against Property (LAP) Support in Hyderabad",
+    "tagline": "Lenders reject LAP applications over document and title gaps, not just credit. We get your property paperwork loan-ready so the mortgage sails through.",
+    "shortDesc": "LAP documentation & title readiness",
+    "waMessage": "Hi JaaGa, I need help with a loan against property (LAP) in Hyderabad.",
+    "keyTakeaways": [
+      "A loan against property (LAP) is secured by your property, so lenders scrutinise the title and documents heavily.",
+      "Most LAP delays and rejections come from document gaps — missing EC, unclear title, pending mutation.",
+      "We prepare the property side: EC, title verification, valuation and the mortgage documentation.",
+      "Getting the paperwork right upfront speeds sanction and improves terms.",
+      "Support for owners and NRIs across Hyderabad and Telangana."
+    ],
+    "intro": [
+      "When you raise a loan against property, the lender is really lending against your title. That's why LAP files stall on property issues — a missing link deed, an unclear EC, an incomplete mutation — as often as on credit.",
+      "JaaGa gets the property side loan-ready: retrieving the EC, verifying title, arranging valuation and preparing the mortgage documentation the lender needs."
+    ],
+    "whenNeeded": {
+      "heading": "When This Helps",
+      "paragraphs": [
+        "When you plan to raise a loan against a residential, commercial or plot property and want the paperwork to clear smoothly.",
+        "When a lender has raised objections on the title, EC or documents that are holding up sanction."
+      ]
+    },
+    "process": {
+      "heading": "How We Support Your LAP",
+      "steps": [
+        {
+          "name": "Document Review",
+          "desc": "We review your title chain, EC and revenue records to spot gaps lenders will flag."
+        },
+        {
+          "name": "Fix the Gaps",
+          "desc": "We resolve issues — retrieve the EC, complete mutation, correct records — before you apply."
+        },
+        {
+          "name": "Valuation & Papers",
+          "desc": "We arrange valuation and prepare the mortgage documentation."
+        },
+        {
+          "name": "Lender Coordination",
+          "desc": "We support the property-side queries the lender raises through to sanction."
+        }
+      ]
+    },
+    "documents": [
+      "Property title deed and link deeds",
+      "Latest EC (we can retrieve)",
+      "Property tax / PTIN details",
+      "Owner identity proof",
+      "Any lender objection letter"
+    ],
+    "challenges": [
+      {
+        "title": "Unclear title chain",
+        "desc": "A missing link deed stalls LAP. We trace and complete the chain."
+      },
+      {
+        "title": "Pending mutation",
+        "desc": "Lenders want the record in your name. We complete mutation first."
+      },
+      {
+        "title": "EC / encumbrance doubts",
+        "desc": "We surface and resolve encumbrance questions before they block sanction."
+      }
+    ],
+    "whyMatters": "A LAP is one of the cheapest ways to borrow — but only if the property paperwork holds up. Fixing title and document gaps before you apply is the difference between a smooth sanction and months of back-and-forth or rejection.",
+    "faqs": [
+      {
+        "q": "Do you provide the loan?",
+        "a": "No — JaaGa is not a lender. We prepare and fix the property documentation and title so your LAP application clears smoothly with your bank/NBFC."
+      },
+      {
+        "q": "What property issues stall LAP?",
+        "a": "Unclear title chains, missing EC, pending mutation, encumbrance doubts and valuation gaps are the common culprits."
+      },
+      {
+        "q": "Can you help after a rejection?",
+        "a": "Yes — send us the lender's objections and we resolve the property-side issues behind them."
+      },
+      {
+        "q": "Do you arrange valuation?",
+        "a": "We help arrange a valuation; the lender may also use its own empanelled valuer."
+      },
+      {
+        "q": "Is this available to NRIs?",
+        "a": "Yes, the property documentation work is handled remotely."
+      }
+    ],
+    "whatWeNeed": [
+      "Property title and link deeds",
+      "Latest EC / tax details",
+      "Any lender objection letter"
+    ],
+    "whatYouGet": [
+      "Loan-ready property documentation",
+      "Resolved title / EC / mutation gaps",
+      "Support through lender queries"
+    ],
+    "references": [
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      },
+      {
+        "label": "CERSAI",
+        "url": "https://www.cersai.org.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "slug": "property-repatriation-hyderabad",
+    "service": "Property Repatriation (NRI)",
+    "category": "Loans & NRI Services",
+    "title": "NRI Property Repatriation Hyderabad | Sale Proceeds Transfer",
+    "metaDescription": "Repatriate proceeds from a Hyderabad property sale as an NRI. JaaGa guides the RBI-compliant process, Form 15CA/15CB, and bank documentation to move funds abroad.",
+    "keywords": "property repatriation hyderabad, nri sale proceeds transfer, 15ca 15cb, repatriate money abroad india, nri property funds",
+    "h1": "NRI Property Repatriation in Hyderabad",
+    "tagline": "Selling is only half the job — getting the money out of India, compliantly, is the other. We guide the RBI process, tax forms and bank documentation to repatriate your sale proceeds.",
+    "shortDesc": "Move NRI sale proceeds abroad, compliantly",
+    "waMessage": "Hi JaaGa, I need help repatriating property sale proceeds as an NRI in Hyderabad.",
+    "keyTakeaways": [
+      "NRIs can repatriate proceeds from an Indian property sale, subject to RBI rules and limits (commonly up to USD 1 million per financial year).",
+      "The process needs correct tax handling, Form 15CA/15CB, and specific bank documentation.",
+      "Funds usually route through NRO to NRE/overseas accounts with proper certification.",
+      "Getting the documentation and TDS/tax right is what makes the transfer go through.",
+      "We guide the end-to-end process and coordinate the paperwork."
+    ],
+    "intro": [
+      "For NRIs, selling a Hyderabad property is straightforward compared to the next step: moving the money abroad. Repatriation is governed by RBI rules and requires precise tax and bank documentation.",
+      "JaaGa guides the repatriation — the tax certification (Form 15CA/15CB), the bank paperwork, and the RBI-compliant route — so your sale proceeds reach your overseas account cleanly."
+    ],
+    "whenNeeded": {
+      "heading": "When This Helps",
+      "paragraphs": [
+        "After (or while) selling an Indian property as an NRI and needing to transfer the proceeds abroad.",
+        "When you're unsure about the limits, tax forms (15CA/15CB), TDS, or the NRO-to-NRE/overseas route."
+      ]
+    },
+    "process": {
+      "heading": "How We Guide Repatriation",
+      "steps": [
+        {
+          "name": "Assess the Position",
+          "desc": "We review the sale, TDS deducted, holding period and your account setup."
+        },
+        {
+          "name": "Tax Certification",
+          "desc": "We coordinate the Form 15CB (CA certificate) and Form 15CA filing for the remittance."
+        },
+        {
+          "name": "Bank Documentation",
+          "desc": "We prepare the bank's repatriation paperwork and the RBI-compliant route (NRO to NRE/overseas)."
+        },
+        {
+          "name": "Transfer",
+          "desc": "We support the bank process through to the funds being remitted, within the annual limit."
+        }
+      ]
+    },
+    "documents": [
+      "Registered sale deed of the property",
+      "Proof of TDS deducted on the sale",
+      "NRO / NRE account details",
+      "Passport and NRI status proof",
+      "Source-of-funds / original purchase proof"
+    ],
+    "challenges": [
+      {
+        "title": "TDS on NRI sales",
+        "desc": "NRI sales attract higher TDS; getting the certificate and any refund right is key. We coordinate it."
+      },
+      {
+        "title": "15CA/15CB errors",
+        "desc": "Incorrect forms stall the remittance. We ensure they're filed correctly."
+      },
+      {
+        "title": "Documenting source of funds",
+        "desc": "Banks want the original purchase trail. We help assemble it."
+      }
+    ],
+    "whyMatters": "Many NRIs complete a sale and then get stuck for months at the bank because the tax certification or source-of-funds trail isn't right. Handling repatriation properly is what actually gets your money out of India, on time and within the rules.",
+    "faqs": [
+      {
+        "q": "How much can an NRI repatriate?",
+        "a": "Commonly up to USD 1 million per financial year from NRO funds, subject to RBI rules and proper documentation. Your specific case should be confirmed with your bank/CA."
+      },
+      {
+        "q": "What are Form 15CA and 15CB?",
+        "a": "15CB is a chartered accountant's certificate on the remittance and its tax; 15CA is the declaration filed with the tax department. Both are typically needed to remit."
+      },
+      {
+        "q": "Is TDS deducted on my sale?",
+        "a": "Yes — NRI property sales attract TDS, often at higher rates. Correct handling (and any refund) is part of the process."
+      },
+      {
+        "q": "Do you provide tax or legal advice?",
+        "a": "We guide and coordinate the process and paperwork with your CA and bank; we are a facilitation service, not a substitute for personalised tax or legal advice."
+      },
+      {
+        "q": "Can this be done remotely?",
+        "a": "Yes — the documentation and coordination are handled remotely for NRIs."
+      }
+    ],
+    "whatWeNeed": [
+      "Registered sale deed and TDS proof",
+      "NRO / NRE account details",
+      "Passport / NRI status proof"
+    ],
+    "whatYouGet": [
+      "Coordinated 15CA/15CB certification",
+      "Bank repatriation documentation",
+      "Support through the RBI-compliant transfer"
+    ],
+    "references": [
+      {
+        "label": "Reserve Bank of India",
+        "url": "https://www.rbi.org.in/"
+      },
+      {
+        "label": "Telangana Registration & Stamps Department",
+        "url": "https://registration.telangana.gov.in/"
+      }
+    ],
+    "city": "Hyderabad",
+    "state": "Telangana"
   }
 ]
