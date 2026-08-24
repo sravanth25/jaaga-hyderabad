@@ -13,6 +13,7 @@
   "priceRange": "₹₹",
   "sameAs": ["https://www.jaaga.ai"],
   "googleVerification": "google85d5a936e0542312",
+  "vercelAnalytics": true,
   "address": {
     "street": "Set your Hyderabad office address",
     "locality": "Hyderabad",

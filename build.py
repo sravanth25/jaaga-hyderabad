@@ -158,6 +158,13 @@ def wa_link(site, msg):
 def telhref(num):
     return "tel:" + re.sub(r"[^\d+]", "", num)
 
+def analytics_html(site):
+    """Vercel Web Analytics for static/HTML sites (enable Web Analytics in the Vercel dashboard)."""
+    if not site.get("vercelAnalytics"):
+        return ""
+    return ('<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>'
+            '<script defer src="/_vercel/insights/script.js"></script>')
+
 def fmt_date(iso):
     """'2026-08-24' -> '24 August 2026' for display."""
     try:
@@ -436,6 +443,7 @@ def render_page(sv, site, services):
 </main>
 {footer_html(site, services)}
 {NAV_JS}
+{analytics_html(site)}
 </body>
 </html>"""
 
@@ -508,6 +516,7 @@ def render_hub(site, services):
 </main>
 {footer_html(site, services)}
 {NAV_JS}
+{analytics_html(site)}
 </body>
 </html>"""
 
