@@ -20,6 +20,9 @@
   },
   "geo": { "lat": 17.4239, "lng": 78.4483 },
   "_rating_note": "Add a real rating only when you have genuine reviews, e.g. \"rating\": { \"value\": \"4.8\", \"count\": \"120\" } — the generator will then emit AggregateRating schema.",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "_date_note": "Bump dateModified only when you genuinely update content (per-service override: add \"dateModified\" to a services.json entry). Do NOT fake daily updates — it reads as manipulation.",
   "areasCount": "135+",
   "districts": "Hyderabad, Ranga Reddy, Medchal-Malkajgiri and Sangareddy",
   "areas": [

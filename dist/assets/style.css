@@ -64,7 +64,9 @@ a:hover{text-decoration:underline}
 .jg-crumb a{color:var(--gold-2);font-weight:600}
 .jg-crumb span{opacity:.5;margin:0 4px}
 .jg-h1{font-size:clamp(30px,5.2vw,48px);font-weight:900;letter-spacing:-.035em;max-width:18ch;position:relative;z-index:1}
-.jg-hero .jg-lede{color:#d6e0f2;font-size:clamp(16px,2.3vw,20px);max-width:56ch;margin:16px 0 26px;position:relative;z-index:1}
+.jg-hero .jg-lede{color:#d6e0f2;font-size:clamp(16px,2.3vw,20px);max-width:56ch;margin:16px 0 20px;position:relative;z-index:1}
+.jg-dateline{color:#9fb0d0;font-size:13px;font-weight:500;margin:0 0 24px;position:relative;z-index:1;display:inline-flex;align-items:center;gap:7px}
+.jg-dateline::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(22,163,74,.25)}
 .jg-hero-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:relative;z-index:1}
 .jg-cta-ghost{color:#fff;font-weight:700;font-size:15px;padding:13px 18px;border:1.5px solid rgba(255,255,255,.3);border-radius:100px}
 .jg-cta-ghost:hover{text-decoration:none;border-color:var(--gold-2)}

@@ -139,6 +139,8 @@ def build_schema(sv, site):
         "description": sv["metaDescription"],
         "inLanguage": "en-IN",
         "isPartOf": {"@id": base + "/#website"},
+        "datePublished": sv.get("datePublished", site.get("datePublished")),
+        "dateModified": sv.get("dateModified", site.get("dateModified")),
         "speakable": {"@type": "SpeakableSpecification",
                       "cssSelector": [".jg-h1", ".jg-takeaways"]},
         "about": {"@id": url + "#service"},
@@ -155,6 +157,14 @@ def wa_link(site, msg):
 
 def telhref(num):
     return "tel:" + re.sub(r"[^\d+]", "", num)
+
+def fmt_date(iso):
+    """'2026-08-24' -> '24 August 2026' for display."""
+    try:
+        d = datetime.datetime.strptime(iso, "%Y-%m-%d")
+        return f"{d.day} {d.strftime('%B %Y')}"
+    except Exception:
+        return iso
 
 def grouped(services):
     """Group services by category, preserving first-seen order."""
@@ -376,6 +386,7 @@ def render_page(sv, site, services):
       <nav class="jg-crumb" aria-label="Breadcrumb"><a href="all-services.html">Services</a> <span>/</span> {esc(sv['service'])}</nav>
       <h1 class="jg-h1">{esc(sv['h1'])}</h1>
       <p class="jg-lede">{esc(sv.get('tagline',''))}</p>
+      {f'<p class="jg-dateline">Last updated: {esc(fmt_date(sv.get("dateModified", site.get("dateModified"))))}</p>' if (sv.get("dateModified") or site.get("dateModified")) else ''}
       <div class="jg-hero-cta">
         <a class="jg-cta-btn jg-cta-lg" href="{esc(wa)}" rel="nofollow">Get Started on WhatsApp</a>
         <a class="jg-cta-ghost" href="{telhref(site['phone'])}">Call {esc(site['phone'])}</a>
