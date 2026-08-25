@@ -323,6 +323,25 @@ def related_html(sv, services):
     return f"""<section class="jg-sec"><h2>Related Services</h2>
   <div class="jg-rel-grid">{cards}</div></section>"""
 
+SOCIAL_ICONS = {
+    "instagram": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>',
+    "facebook": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0022 12z"/></svg>',
+    "linkedin": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21H9z"/></svg>',
+    "x": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.3 8.3L23 22h-6.6l-5.2-6.8L5.3 22H2l7.8-8.9L1.5 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.7L7.4 3.8H5.6L17.7 20z"/></svg>',
+    "youtube": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.8-1.8C19.2 5 12 5 12 5s-7.2 0-8.8.5A2.5 2.5 0 001.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 001.8 1.8C4.8 19 12 19 12 19s7.2 0 8.8-.5a2.5 2.5 0 001.8-1.8C23 15.2 23 12 23 12zM9.8 15.3V8.7l5.7 3.3-5.7 3.3z"/></svg>',
+}
+
+def social_html(site):
+    items = site.get("socials", [])
+    if not items:
+        return ""
+    links = "".join(
+        f'<a href="{esc(s["url"])}" target="_blank" rel="noopener me" aria-label="{esc(s["label"])}" title="{esc(s["label"])}">'
+        f'{SOCIAL_ICONS.get(s.get("icon",""), "")}</a>'
+        for s in items
+    )
+    return f'<div class="jg-social">{links}</div>'
+
 def footer_html(site, services):
     links = "".join(f'<li><a href="{esc(s["slug"])}.html">{esc(s["service"])}</a></li>' for s in services)
     year = datetime.date.today().year
@@ -337,6 +356,7 @@ def footer_html(site, services):
           <a href="{telhref(site['phone'])}">{esc(site['phone'])}</a>{f' · <a href="{telhref(site["altPhone"])}">{esc(site["altPhone"])}</a>' if site.get('altPhone') else ''}<br>
           {f'<a href="mailto:{esc(site["email"])}">{esc(site["email"])}</a>' if site.get('email') else ''}
         </p>
+        {social_html(site)}
       </div>
       <nav class="jg-footer-links" aria-label="All services">
         <h4>All Hyderabad Services</h4><ul>{links}</ul>

@@ -11,7 +11,24 @@
   "logo": "https://hyderabad.jaaga.ai/assets/logo.png",
   "ogImage": "https://hyderabad.jaaga.ai/assets/og.jpg",
   "priceRange": "₹₹",
-  "sameAs": ["https://www.jaaga.ai"],
+  "sameAs": [
+    "https://www.jaaga.ai",
+    "https://blog.jaaga.ai",
+    "https://www.instagram.com/jaaga.ai/",
+    "https://www.facebook.com/profile.php?id=61552907515347",
+    "https://www.linkedin.com/company/jaagarealestate/",
+    "https://x.com/Jaaga_ai",
+    "https://www.youtube.com/@jaagaapp",
+    "https://play.google.com/store/apps/details?id=app.jaaga.jaaga_pro1",
+    "https://apps.apple.com/us/app/jaaga-secure-your-property/id6737446238"
+  ],
+  "socials": [
+    { "label": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/jaaga.ai/" },
+    { "label": "Facebook", "icon": "facebook", "url": "https://www.facebook.com/profile.php?id=61552907515347" },
+    { "label": "LinkedIn", "icon": "linkedin", "url": "https://www.linkedin.com/company/jaagarealestate/" },
+    { "label": "X (Twitter)", "icon": "x", "url": "https://x.com/Jaaga_ai" },
+    { "label": "YouTube", "icon": "youtube", "url": "https://www.youtube.com/@jaagaapp" }
+  ],
   "googleVerification": "google85d5a936e0542312",
   "vercelAnalytics": true,
   "address": {

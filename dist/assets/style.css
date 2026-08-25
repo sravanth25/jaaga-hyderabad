@@ -157,6 +157,11 @@ a:hover{text-decoration:underline}
 .jg-footer-brand .jg-brand-mark{color:#fff;font-size:24px}
 .jg-footer-brand p{margin:8px 0 0;font-size:14px;color:#9fb0d0;max-width:34ch}
 .jg-footer-contact a{color:var(--gold-2);font-weight:700}
+.jg-social{display:flex;gap:10px;margin-top:16px}
+.jg-social a{width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,.08);color:#c8d4ea;transition:background .15s ease,color .15s ease,transform .1s ease}
+.jg-social a:hover{background:var(--gold);color:var(--navy-2);transform:translateY(-2px)}
+.jg-social svg{width:19px;height:19px;display:block}
 .jg-footer-links h4{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}
 .jg-footer-links ul{list-style:none;margin:0;padding:0;columns:2;column-gap:24px}
 .jg-footer-links li{margin-bottom:8px;break-inside:avoid}
