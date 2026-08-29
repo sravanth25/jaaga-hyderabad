@@ -13,7 +13,7 @@ Writes dist/<slug>.html  (one static, self-canonical, schema-rich page per servi
 Run:  python build.py
 Deploy: push the dist/ folder to Vercel / Netlify / any static host.
 """
-import json, os, html, datetime, re
+import json, os, html, datetime, re, shutil
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
@@ -415,6 +415,8 @@ def render_page(sv, site, services):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/logo.png">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{schema}</script>
 </head>
@@ -516,6 +518,8 @@ def render_hub(site, services):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/logo.png">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{json.dumps(itemlist, ensure_ascii=False)}</script>
 </head>
@@ -624,6 +628,13 @@ def main():
         css = f.read()
     with open(os.path.join(DIST, "assets", "style.css"), "w", encoding="utf-8") as f:
         f.write(css)
+
+    # copy image/brand assets (og.jpg, logo.png, favicon.ico, ...) into dist/assets/
+    src_assets = os.path.join(ROOT, "assets")
+    if os.path.isdir(src_assets):
+        for fn in os.listdir(src_assets):
+            if fn.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".gif")):
+                shutil.copy(os.path.join(src_assets, fn), os.path.join(DIST, "assets", fn))
 
     # pages
     for sv in services:
