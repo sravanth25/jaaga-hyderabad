@@ -264,6 +264,24 @@ def process_html(sv):
     return f"""<section class="jg-sec"><h2>{esc(p.get('heading','The Process'))}</h2>
   <ol class="jg-steps">{steps}</ol></section>"""
 
+def self_service_html(sv, site):
+    """DIY 'how to do it yourself' block that matches informational search intent, then pivots to the service."""
+    ss = sv.get("selfService")
+    if not ss:
+        return ""
+    steps = "".join(
+        f'<li class="jg-step"><span class="jg-step-n">{i+1}</span>'
+        f'<div><h3>{esc(s["name"])}</h3><p>{esc(s["desc"])}</p></div></li>'
+        for i, s in enumerate(ss.get("steps", [])))
+    intro = f'<p>{esc(ss["intro"])}</p>' if ss.get("intro") else ""
+    cta = ""
+    if ss.get("cta"):
+        msg = ss.get("ctaMessage", sv.get("waMessage", f"Hi JaaGa, I need {sv['service']} in Hyderabad"))
+        cta = (f'<div class="jg-diy-cta"><p>{esc(ss["cta"])}</p>'
+               f'<a class="jg-cta-btn" href="{esc(wa_link(site, msg))}" rel="nofollow">Ask JaaGa to do it</a></div>')
+    return (f'<section class="jg-sec"><h2>{esc(ss["heading"])}</h2>{intro}'
+            f'<ol class="jg-steps">{steps}</ol>{cta}</section>')
+
 def docs_html(sv):
     if not sv.get("documents"): return ""
     items = "".join(f"<li>{esc(d)}</li>" for d in sv["documents"])
@@ -441,6 +459,7 @@ def render_page(sv, site, services):
     <article class="jg-article">
       {takeaways_html(sv)}
       {intro_paras}
+      {self_service_html(sv, site)}
       {when}
       {process_html(sv)}
       {docs_html(sv)}

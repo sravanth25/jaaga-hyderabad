@@ -1703,6 +1703,14 @@
     "whyMatters": "Property tax arrears don't just cost penalties — they stall sales and mutations, because buyers and offices want to see a clean, paid record. Keeping the receipt current is a small task that prevents a last-minute deal blocker.",
     "faqs": [
       {
+        "q": "How do I download my Telangana / GHMC property tax receipt?",
+        "a": "On the GHMC property tax portal, search by your PTIN or door number, open the payment/transaction history and use 'Print / Download Receipt' to save the PDF. We can retrieve past receipts and the current status for you if the portal is unclear."
+      },
+      {
+        "q": "How do I search my property tax online in Hyderabad?",
+        "a": "Use the GHMC property tax portal's search with your PTIN or door/house number to see dues, assessment and receipts. If your property isn't listed, it may be unassessed — we can help register it."
+      },
+      {
         "q": "What is a PTIN?",
         "a": "The Property Tax Identification Number under which GHMC assesses and records property tax for your property."
       },
@@ -1742,7 +1750,31 @@
         "label": "Telangana Registration & Stamps Department",
         "url": "https://registration.telangana.gov.in/"
       }
-    ]
+    ],
+    "selfService": {
+      "heading": "How to Search & Download Your GHMC Property Tax Receipt (Yourself)",
+      "intro": "If your property is assessed and you know the PTIN, you can search and download your GHMC property tax receipt yourself:",
+      "steps": [
+        {
+          "name": "Open the GHMC property tax portal",
+          "desc": "Go to GHMC Property Tax and choose 'Search Your Property Tax' or the online payment section."
+        },
+        {
+          "name": "Enter your PTIN or door number",
+          "desc": "Search using your PTIN (assessment number) or door/house number to pull up the property."
+        },
+        {
+          "name": "View dues and payment history",
+          "desc": "The portal shows current dues, paid amounts and the transaction/payment history."
+        },
+        {
+          "name": "Download the receipt",
+          "desc": "Open the relevant payment and use 'Print / Download Receipt' to save the PDF receipt."
+        }
+      ],
+      "cta": "Can't find the PTIN, an old receipt, or the portal is throwing errors? Send us your door number and we'll retrieve your PTIN, tax status and paid receipts for you.",
+      "ctaMessage": "Hi JaaGa, I need my GHMC property tax receipt / status in Hyderabad."
+    }
   },
   {
     "slug": "electricity-name-change-hyderabad",
@@ -2165,6 +2197,14 @@
     "whyMatters": "A two-minute land details search can save you from weeks of negotiation over a parcel that turns out to be government, assigned or owned by someone other than your seller. It's the cheapest, fastest guardrail in land buying.",
     "faqs": [
       {
+        "q": "How do I find Hyderabad / Telangana land records by survey number?",
+        "a": "Use the Telangana land records portal (Dharani / Bhu Bharati): select the district, mandal and village, then enter the survey number to see the extent, classification and recorded owner. For ownership certainty, pair it with the EC and 1B — which we can retrieve and verify."
+      },
+      {
+        "q": "How do I search a Telangana survey number online?",
+        "a": "On the Dharani / Bhu Bharati portal, choose the location and enter the survey number; the parcel details appear. If the number doesn't resolve or the details look off, we can trace the correct sub-division and pull the full record for you."
+      },
+      {
         "q": "What does a land details search show?",
         "a": "The recorded owner, extent, land classification and status for a given survey number in the Telangana land records."
       },
@@ -2206,7 +2246,31 @@
       }
     ],
     "city": "Hyderabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "selfService": {
+      "heading": "How to Search Telangana Land Records by Survey Number (Yourself)",
+      "intro": "For agricultural and many other parcels in Telangana, you can look up basic land details by survey number on the state land records portal (Dharani / Bhu Bharati):",
+      "steps": [
+        {
+          "name": "Open the Telangana land records portal",
+          "desc": "Go to the Telangana land records portal (Dharani / Bhu Bharati)."
+        },
+        {
+          "name": "Select the location",
+          "desc": "Choose the district, mandal (tehsil) and village where the land is located."
+        },
+        {
+          "name": "Enter the survey number",
+          "desc": "Type the survey number (and sub-division, if any) for the parcel you want to check."
+        },
+        {
+          "name": "View the land details",
+          "desc": "The portal shows the extent, land classification and the recorded owner (pattadhar) for that survey number."
+        }
+      ],
+      "cta": "Survey number not resolving, or the details don't match what the seller claims? Send us the survey number and village — we'll pull the full record and cross-check ownership, encumbrance and prohibited-land status.",
+      "ctaMessage": "Hi JaaGa, I need a land details search by survey number in Telangana."
+    }
   },
   {
     "slug": "digital-land-survey-hyderabad",
@@ -2398,6 +2462,18 @@
     "whyMatters": "Until a property has a PTIN, it isn't on GHMC's rolls in your name — which blocks tax payment, complicates loans and sales, and can hold up utility connections. Registering the PTIN puts your property properly on record.",
     "faqs": [
       {
+        "q": "How do I find my PTIN by house number?",
+        "a": "On the GHMC property tax portal, use 'Search Your Property' and enter your door/house number with the locality — your PTIN and assessment appear. If nothing shows, the property likely isn't assessed yet and a new PTIN must be created, which we can do for you."
+      },
+      {
+        "q": "How do I check my PTIN status?",
+        "a": "Enter your PTIN on the GHMC property tax search to see the assessment status and any outstanding dues. We can retrieve and explain your status if the portal is unclear."
+      },
+      {
+        "q": "What is a PTIN / assessment number?",
+        "a": "The PTIN is the unique Property Tax Identification (assessment) number GHMC assigns to a property. Every property tax payment and receipt is tied to it."
+      },
+      {
         "q": "What is a PTIN?",
         "a": "The Property Tax Identification Number GHMC assigns to a property to assess and record its property tax."
       },
@@ -2439,7 +2515,31 @@
       }
     ],
     "city": "Hyderabad",
-    "state": "Telangana"
+    "state": "Telangana",
+    "selfService": {
+      "heading": "How to Find or Check Your PTIN Online (Yourself)",
+      "intro": "Your PTIN (Property Tax Identification Number) is how GHMC identifies your property for tax. If your property is already assessed, you can look the PTIN up yourself on the GHMC portal:",
+      "steps": [
+        {
+          "name": "Open the GHMC property tax portal",
+          "desc": "Go to the GHMC website and open Property Tax, then 'Search Your Property Tax' / 'Know Your Property Tax Dues'."
+        },
+        {
+          "name": "Search by door number or owner",
+          "desc": "Select your GHMC circle and enter your door/house number (or owner name and locality)."
+        },
+        {
+          "name": "View your PTIN and assessment",
+          "desc": "The portal shows your PTIN (assessment number), the assessed value and any dues against the property."
+        },
+        {
+          "name": "Note the PTIN for future use",
+          "desc": "Save the PTIN — you'll use it to check status, pay tax and download receipts."
+        }
+      ],
+      "cta": "No PTIN showing up? That usually means the property is new or was never assessed — a fresh PTIN has to be created with GHMC. Send us your door number and we'll create it, or retrieve an existing one.",
+      "ctaMessage": "Hi JaaGa, I need help with my PTIN in Hyderabad (find / create / check status)."
+    }
   },
   {
     "slug": "water-bill-name-change-hyderabad",
