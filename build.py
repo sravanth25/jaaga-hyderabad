@@ -669,6 +669,11 @@ def main():
         for fn in os.listdir(src_assets):
             if fn.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".gif")):
                 shutil.copy(os.path.join(src_assets, fn), os.path.join(DIST, "assets", fn))
+        # also place favicons at the site root — where crawlers look by default (/favicon.ico)
+        for root_icon in ("favicon.ico", "favicon.svg"):
+            src = os.path.join(src_assets, root_icon)
+            if os.path.exists(src):
+                shutil.copy(src, os.path.join(DIST, root_icon))
 
     # pages
     for sv in services:
