@@ -2,6 +2,7 @@
   "_README": "EDIT THESE before deploying. baseUrl must match your final domain (used in canonical + sitemap). address and rating are still PLACEHOLDERS — set real values. Do not publish AggregateRating unless it reflects genuine collected reviews (Google penalises fake review markup). Contact details (phone/whatsapp/altPhone/email) are set to real JaaGa values.",
   "baseUrl": "https://jaaga-hyderabad.vercel.app",
   "orgName": "JaaGa Property Services",
+  "siteName": "JaaGa",
   "tagline": "Everything Your Property Needs — Hyderabad property records, verification and documentation, handled remotely.",
   "phone": "+91 88851 66880",
   "whatsapp": "918885166880",

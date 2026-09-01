@@ -76,6 +76,17 @@ def build_schema(sv, site):
             "reviewCount": site["rating"]["count"],
         }
 
+    # WebSite — makes search engines show "JaaGa" as the site name, not the domain
+    graph.append({
+        "@type": "WebSite",
+        "@id": base + "/#website",
+        "url": base + "/",
+        "name": site.get("siteName", site["orgName"]),
+        "alternateName": site["orgName"],
+        "publisher": {"@id": org_id},
+        "inLanguage": "en-IN",
+    })
+
     # Service
     graph.append({
         "@type": "Service",
@@ -421,7 +432,7 @@ def render_page(sv, site, services):
 <link rel="canonical" href="{esc(url)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="{esc(site['orgName'])}">
+<meta property="og:site_name" content="{esc(site.get('siteName', site['orgName']))}">
 <meta property="og:locale" content="en_IN">
 <meta property="og:title" content="{esc(sv['title'])}">
 <meta property="og:description" content="{esc(sv['metaDescription'])}">
@@ -433,8 +444,10 @@ def render_page(sv, site, services):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{schema}</script>
 </head>
@@ -529,7 +542,7 @@ def render_hub(site, services):
 <link rel="canonical" href="{esc(url)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="{esc(site['orgName'])}">
+<meta property="og:site_name" content="{esc(site.get('siteName', site['orgName']))}">
 <meta property="og:title" content="{esc(site['hubTitle'])}">
 <meta property="og:description" content="{esc(site['hubDescription'])}">
 <meta property="og:url" content="{esc(url)}">
@@ -537,8 +550,10 @@ def render_hub(site, services):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{json.dumps(itemlist, ensure_ascii=False)}</script>
 </head>
